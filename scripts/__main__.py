@@ -36,3 +36,6 @@ if __name__ == "__main__":
     elif dec == 'search':
         from search import search_games
         search_games()
+    elif dec == 'custom':
+        from custom import defcustom
+        defcustom()
