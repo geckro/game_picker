@@ -1,7 +1,9 @@
 NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOPER;PUBLISHER
 [1080 Snowboarding];[n64];[1998-02];great;snowboarding;Nintendo EAD;[Nintendo]
 [1080° Avalanche];[gcn];;good;snowboarding;Nintendo ST;[Nintendo]
+[A Boy and His Blob: Trouble on Blobolonia];[nes];;;;;
 [A Boy and His Blob];[wii][win][lin][mac][ps4][psv][xb1][swi][and][ios][ps3];;great;puzzle_platform;WayForward;Majesco Entertainment
+[Ace Attorney Investigations: Miles Edgeworth];[nds][and][ios];;;;;
 [Advance Wars 2: Black Hole Rising];[gba];;great;turn_based_strategy;Intelligent Systems;[Nintendo]
 [Advance Wars: Days of Ruin];[nds];;great;turn_based_strategy;Intelligent Systems;[Nintendo]
 [Advance Wars: Dual Strike];[nds];;great;turn_based_strategy;Intelligent Systems;[Nintendo]
@@ -16,7 +18,9 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Another Code: R – A Journey into Lost Memories];[wii];;ok;point_click;Cing;[Nintendo]
 [Another Code: Two Memories];[nds];;good;point_click;Cing;[Nintendo]
 [Anubis II];[ps2][win][wii];;awful;action;Data Design Interactive;Data Design InteractiveMetro 3D Europe
+[Apollo Justice: Ace Attorney];[nds][ios][and][n3d];;;;;
 [Arc Rise Fantasia];[wii];;ok;tb_rpg;ImageepochMarvelous Entertainment;Marvelous EntertainmentIgnition Entertainment
+[Avalon Code];[nds];;;;;
 [Babysitting Mama];[wii];;good;simulationminigame;Cooking Mama Ltd.;Square Enix Majesco Entertainment 505 Games
 [Balloon Fight];[nes][arc];;good;action;Nintendo R&D1;[Nintendo]
 [Band Hero];[ps2][ps3][wii][nds][x36];;good;rhythm;NeversoftVicarious Visions;Activision
@@ -26,34 +30,57 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Banjo-Pilot];[gba];;ok;racing;Rare;THQ
 [Banjo-Tooie];[n64];[2000-11];great;3d_platform;Rare;[Nintendo]
 [Barker Bill's Trick Shooting];[nes];;ok;light_gun;Nintendo R&D2;[Nintendo]
-[Baseball];[nes][gb][arc];;ok;baseball;Nintendo R&D1;[Nintendo]
-[Battalion Wars 2 ];[wii];;good;actionrt_tactic;Kuju Entertainment ;[Nintendo]
+[Baseball];[nes][gby][arc];;ok;baseball;Nintendo R&D1;[Nintendo]
+[Battalion Wars 2];[wii];;good;actionrt_tactic;Kuju Entertainment ;[Nintendo]
 [Battalion Wars];[gcn];;good;real_time_tactics;Kuju;[Nintendo]
 [Bayonetta 2];[wiu][swi];;great;hack_slashaction_adv;PlatinumGames;[Nintendo]
 [Bayonetta 3];[swi];;great;action_advhack_slash;PlatinumGames;[Nintendo]
 [Bayonetta];[ps3][x36][wiu][swi][win][ps4][xb1];;great;hack_slashaction_adv;PlatinumGames;Sega[Nintendo]
+[Bejeweled 3];[win][mac][ps3][x36][nds][ios][and];;;;;
+[Bejeweled Twist];[win][nds][dsi];;;;;
 [Big Brain Academy: Wii Degree];[wii];;ok;puzzleedutainment;Nintendo EAD;[Nintendo]
+[Big Brain Academy];[nds];;;;;
 [Bit.Trip Complete];[wii];;great;comp;Choice Provisions;Aksys Games
 [Blast Corps];[n64];[1997-03];great;action,puzzle;[Rare];[Nintendo]
 [Blood of Bahamut];[nds];;great;action_rpg;Think & Feel;Square Enix
+[Blue Dragon: Awakened Shadow];[nds];;;;;
+[Bomberman 2];[nds];;;;;
 [Bomberman Blast];[wiw][wii];[2008-09][2008-09];great;action;[Hudson];[Hudson]
+[Bomberman Land Touch 2];[nds];;;;;
+[Bomberman Land Touch];[nds];;;;;
 [Bomberman Land];[wii];;ok;actionpuzzle;HudsonRacjin;Hudson
+[Bomberman Story DS];[nds];;;;;
+[Bomberman];[nds];;;;;
+[Brain Age 2: More Training in Minutes a Day];[nds];;;;;
+[Brain Age: Train Your Brain in Minutes a Day];[nds];;;;;
 [Call of Duty 3];[ps2][xbox][x36][wii][ps3];;great;fps;Treyarch;Activision
 [Call of Duty 4: Modern Warfare];[win][ps3][x36][mac][wii];;great;fps;Infinity Ward;Activision
+[Call of Duty 4: Modern Warfare];[nds];;;;;
 [Call of Duty: Black Ops];[win][nds][ps3][wii][x36][mac];;great;fps;Treyarch;Activision
+[Call of Duty: Modern Warfare 3 – Defiance];[nds];;;;;
 [Call of Duty: Modern Warfare 3];[win][ps3][x36][wii];;good;fps;Infinity Ward;Activision
+[Call of Duty: Modern Warfare: Mobilized];[nds];;;;;
+[Call of Duty: World at War];[nds];;;;;
 [Camping Mama: Outdoor Adventures];[nds];;ok;simulationminigame;Cooking Mama Ltd.;Office Create Majesco Entertainment 505 Games
 [Captain Rainbow];[wii];;good;action_adv;Skip Ltd.;[Nintendo]
 [Captain Toad: Treasure Tracker];[wiu][swi][n3d];;great;puzzle;Nintendo EAD;[Nintendo]
+[Carnival Games];[wii][nds][ios];;;;;
 [Castlevania 64];[n64];[1999-01];good;action_adv,3d_platform;[Konami];[Konami]
 [Castlevania Judgment];[wii];;bad;fighting;Eighting;Konami
+[Castlevania: Dawn of Sorrow];[nds];;;;;
 [Castlevania: Legacy of Darkness];[n64];[1999-12];ok;action_adv,3d_platform;[Konami];[Konami]
+[Castlevania: Order of Ecclesia];[nds];;;;;
+[Castlevania: Portrait of Ruin];[nds];;;;;
+[Chibi-Robo!: Park Patrol];[nds];;;;;
 [Children of Mana];[nds];;ok;action_rpg;Square EnixNex Entertainment;Square Enix
 [Chrono Trigger];[sfc][ps1][nds][win][ios][and];;great;tb_rpg;Square;SquareSquare Enix
 [Clu Clu Land];[nes];;ok;puzzle;Nintendo R&D1;[Nintendo]
+[Clubhouse Games];[nds][dsi];;;;;
 [Conker: Live & Reloaded];[xbox];;good;3d_platform;Rare;Microsoft
 [Conker's Bad Fur Day];[n64];[2001-03];great;3d_platform;Rare;Rare
 [Conker's Pocket Tales];[gbc];;ok;action_adv;Rare;Rare
+[Contact];[nds];;;;;
+[Contra 4];[nds];;;;;
 [Cooking Mama 2: Dinner with Friends];[nds];;good;simulationminigame;Cooking Mama Ltd.;Taito Majesco Entertainment 505 Games
 [Cooking Mama 3: Shop & Chop];[nds];;ok;simulationminigame;Cooking Mama Ltd.;Taito Majesco Entertainment 505 Games
 [Cooking Mama 4: Kitchen Magic];[n3d];;ok;simulationminigame;Cooking Mama Ltd.;Office Create Majesco Entertainment 505 Games
@@ -63,6 +90,11 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Cooking Mama: World Kitchen];[wii];;ok;simulationminigame;Cooking Mama Ltd.;Taito Majesco Entertainment 505 Games
 [Cooking Mama];[nds][ios];;ok;simulationminigame;Office Create;Taito Majesco Entertainment 505 Games
 [Crafting Mama];[nds];;good;simulationminigame;Cooking Mama Ltd.;Square Enix Majesco Entertainment 505 Games
+[Crash Boom Bang!];[nds];;;;;
+[Crash of the Titans];[nds];;;;;
+[Crash: Mind over Mutant];[ps2][wii][x36][psp][nds];;;;;
+[Crosswords DS];[nds];;;;;
+[Custom Robo Arena];[nds];;;;;
 [Custom Robo V2];[n64];[2000-11];great;action_rpg;[Noise];[Nintendo]
 [Custom Robo];[n64];[1999-12];great;action_rpg;[Noise];[Nintendo]
 [Dance Dance Revolution: Mario Mix];[gcn];;good;rhythm;KonamiHudson;[Nintendo]
@@ -77,7 +109,7 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [DK: King of Swing];[gba];;good;puzzle_platform;Paon;[Nintendo]
 [Donkey Kong 3];[arc][nes];;good;2d_platformshooter;Nintendo R&D1;[Nintendo]
 [Donkey Kong 64];[n64];[1999-11];great;3d_platform;Rare;[Nintendo]
-[Donkey Kong 94];[gb];;great;2d_platformpuzzle;Pax Softnica;[Nintendo]
+[Donkey Kong 94];[gby];;great;2d_platformpuzzle;Pax Softnica;[Nintendo]
 [Donkey Kong Barrel Blast];[wii];;bad;racing;Paon;[Nintendo]
 [Donkey Kong Country 2];[sfc][gba];;great;2d_platform;Rare;[Nintendo]
 [Donkey Kong Country 3];[sfc][gba];;great;2d_platform;Rare;[Nintendo]
@@ -87,14 +119,18 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Donkey Kong Jr. Math];[nes];;bad;edutainment;Nintendo R&D2;[Nintendo]
 [Donkey Kong Jr.];[arc][a26][a78][nes][itv][col];;great;2d_platform;Nintendo R&D1;[Nintendo]
 [Donkey Kong Jungle Beat];[gcn][wii];;great;2d_platform;Nintendo EAD;[Nintendo]
-[Donkey Kong Land 2];[gb];;good;2d_platform;Rare;[Nintendo]
-[Donkey Kong Land 3];[gb][gbc];;good;2d_platform;Rare;[Nintendo]
-[Donkey Kong Land];[gb];;good;2d_platform;Rare;[Nintendo]
+[Donkey Kong Land 2];[gby];;good;2d_platform;Rare;[Nintendo]
+[Donkey Kong Land 3];[gby][gbc];;good;2d_platform;Rare;[Nintendo]
+[Donkey Kong Land];[gby];;good;2d_platform;Rare;[Nintendo]
 [Donkey Kong];[arc][nes][a26][itv][col][c64][a78];;good;2d_platform;Nintendo R&D1;[Nintendo]
 [Donkey Konga 2];[gcn];;good;rhythm;Namco;[Nintendo]
 [Donkey Konga 3];[gcn];;good;rhythm;Namco;[Nintendo]
 [Donkey Konga];[gcn];;good;rhythm;Namco;[Nintendo]
+[Doom 2016];[win][ps4][xb1][swi];;;;;
+[Doom 3: Resurrection of Evil];[win][lin][xbx];;;;;
+[Doom 3];[win][lin][mac][xbx][ps3][x36][ps4][xb1][swi];;;;;
 [Doom 64];[n64][win][swi][ps4][xb1];[1997-04][2020-03][2020-03][2020-03][2020-03];good;first_person_shooter;[Midway];[Midway],[Besthesda]
+[Doom Eternal];[win][ps4][xb1][swi][ps5][xsx];;;;;
 [Doom II: Hell on Earth];[dos][mac][gba][x36][sat][ps1][ps3][swi][ps4][xb1][and][ios];[1994-10][1995-06][2002-10][2010-05][1997-03][1995-11][2012-11][[2019-07][2019-07][2019-07][2019-07]2019-07];great;first_person_shooter;[id Software];[GT Interactive]
 [Doom];[dos][32x][jag][mac][sfc][ps1][3do][sat][gba][x36][ios][ps3][and][swi][ps4][xb1];[1993-12][1994-11][1994-11][1994-11][1995-09][1995-11][1996-04][1997-03][2001-10][2006-09][2009-10][2012-11][2019-07][2019-07][2019-07][2019-07];great;first_person_shooter;[id Software];[id Software]
 [Double Dragon];[arc][nes][sms];;good;beat_em_up;Technos;Taito
@@ -104,25 +140,42 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Dr. Mario Online Rx];[wiw];;good;puzzle;Arika;[Nintendo]
 [Dr. Mario World];[and][ios];;ok;puzzle;Nintendo EPD;[Nintendo]
 [Dr. Mario: Miracle Cure];[n3d];;ok;puzzle;Tose;[Nintendo]
-[Dr. Mario];[nes][arc][gb];;good;puzzle;Nintendo R&D1;[Nintendo]
+[Dr. Mario];[nes][arc][gby];;good;puzzle;Nintendo R&D1;[Nintendo]
 [Dragon Quest IV: Chapters of the Chosen];[nes][ps1][nds][and][ios];;great;tb_rpg;ChunsoftHeartbeatArtePiazza;EnixSquare Enix
 [Dragon Quest IX: Sentinels of the Starry Skies];[nds];;great;tb_rpg;Level-5Square Enix;Square Enix[Nintendo]
 [Dragon Quest V: Hand of the Heavenly Bride];[sfc][ps2][nds][and][ios];;great;tb_rpg;ChunsoftArtePiazza;EnixSquare Enix
 [Dragon Quest VI: Realms of Revelation];[sfc][nds][ios][and];;great;tb_rpg;Heartbeat;EnixSquare Enix[Nintendo]
 [Dragon Quest];[nes][gbc];;good;tb_rpg;Chunsoft;[Nintendo]Enix
+[Drawn to Life];[nds][ios];;;;;
 [Duck Hunt];[nes][arc];;good;light_gun;Nintendo R&D1Intelligent Systems;[Nintendo]
 [DuckTales: Remastered];[ps3][x36][wiu][win][ios][and];;good;2d_platformmetroidvania;WayForward;[Capcom]
 [Elebits];[wii];;good;actionfps;Konami;Konami
 [Endless Ocean: Blue World];[wii];;good;adventuresimulation;Arika;[Nintendo]
 [Endless Ocean];[wii];;good;adventuresimulation;Arika;[Nintendo]
+[Etrian Mystery Dungeon 2];[n3d];;;;;
+[Etrian Mystery Dungeon];[n3d];;;;;
+[Etrian Odyssey 2 Untold: The Fafnir Knight];[n3d];;;;;
+[Etrian Odyssey II: Heroes of Lagaard];[nds];;;;;
+[Etrian Odyssey III: The Drowned City];[nds];;;;;
+[Etrian Odyssey IV: Legends of the Titan];[n3d];;;;;
+[Etrian Odyssey Nexus];[n3d];;;;;
+[Etrian Odyssey Untold: The Millennium Girl];[n3d];;;;;
+[Etrian Odyssey V: Beyond the Myth];[n3d];;;;;
+[Etrian Odyssey];[nds];;;;;
 [Excite Truck];[wii];;good;racing;Monster Games;[Nintendo]
 [Excitebike 64];[n64];[2000-04];great;racing;[Left Field Productions];[Nintendo]
 [Excitebike];[nes][arc];;great;racing;Nintendo R&D4;[Nintendo]
 [Excitebots: Trick Racing];[wii];;great;racing;Monster Games;[Nintendo]
+[F-Zero Climax];[gba];;;;;
+[F-Zero GX];[gcn];;;;;
 [F-Zero X];[n64];[1998-07];great;racing;[Nintendo EAD];[Nintendo]
+[F-Zero: GP Legend];[gba];;;;;
+[F-Zero: Maximum Velocity];[gba];;;;;
+[F-Zero];[sfc];;;;;
 [Fatal Frame: Maiden of Black Water];[wiu][swi][ps4][ps5][win][xb1][xsx];;good;surv_horror;Koei Tecmo;[Nintendo] Koei Tecmo
 [Fatal Frame: Mask of the Lunar Eclipse];[wii];;great;surv_horror;TecmoGrasshopper;[Nintendo]
 [Faxanadu];[nes];;good;action_rpg2d_platform;Hudson;[Nintendo]
+[Final Doom];[dos][ps1][mac][ps3];;;;;
 [Final Fantasy II];[nes][ps1];;great;tb_rpg;Square;Square
 [Final Fantasy III];[nes];;good;tb_rpg;Square;Square
 [Final Fantasy IV];[sfc][ps1][gba];;great;tb_rpg;Square;Square
@@ -148,11 +201,14 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Gardening Mama 2: Forest Friends];[n3d];;bad;simulationminigame;Cooking Mama Ltd.;Office Create Majesco Entertainment [Nintendo]
 [Gardening Mama];[nds];;ok;simulationminigame;Cooking Mama Ltd.;Taito Majesco Entertainment 505 Games
 [GoldenEye 007];[n64];[1997-08];great;first_person_shooter;[Rare];[Nintendo]
-[Golf];[nes][gb][arc];;good;golf;Nintendo R&D3;[Nintendo]
+[GoldenEye 007];[wii][nds][ps3][x36];;;;;
+[Golf];[nes][gby][arc];;good;golf;Nintendo R&D3;[Nintendo]
 [Hce Climber];[nes][arc];;good;2d_platform;Nintendo R&D1;[Nintendo]
 [Hey You, Pikachu!];[n64];[1998-12];ok;digital_pet,life_sim;[Ambrella];[Nintendo]
+[Hi Hamtaro! Ham-Ham Training];[nds];;;;;
 [Hogan’s Alley];[nes][arc];;good;light_gun;Nintendo R&D1Intelligent Systems;[Nintendo]
 [Hollow Knight];[win][lin][mac][swi][ps4][xb1];;great;metroidvania;Team Cherry;Team Cherry
+[Izuna: Legend of the Unemployed Ninja];[nds];;;;;
 [Jet Force Gemini];[n64];[1999-10];great;third_person_shooter,action_adv;[Rare];[Rare]
 [Killer Instinct Gold];[n64];[1996-11];ok;fighting;[Rare];[Nintendo]
 [Kirby 64: The Crystal Shards];[n64];[2000-03];good;2d_platform;[HAL Laboratory];[Nintendo]
@@ -233,7 +289,7 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Mario vs. Donkey Kong: Mini-Land Mayhem!];[nds];;good;puzzle;Nintendo ST;[Nintendo]
 [Mario vs. Donkey Kong: Tipping Stars];[wiu][n3d];;ok;puzzle;Nintendo ST;[Nintendo]
 [Mario vs. Donkey Kong];[gba];;great;puzzle;Nintendo ST;[Nintendo]
-[Mario's Picross];[gb];;good;puzzle;JupiterApe;[Nintendo]
+[Mario's Picross];[gby];;good;puzzle;JupiterApe;[Nintendo]
 [Mario’s Tennis];[vb];;ok;tennis;Nintendo R&D1 Tose;[Nintendo]
 [Mega Man 2];[nes];;great;2d_platform;Capcom;[Capcom]
 [Mega Man 3];[nes];;great;2d_platform;Capcom;[Capcom]
@@ -268,6 +324,23 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Paper Mario: The Thousand-Year Door];[gcn];;great;tb_rpg;Intelligent Systems;[Nintendo]
 [Paper Mario];[n64];[2000-08];great;tb_rpg;Intelligent Systems;[Nintendo]
 [Perfect Dark];[n64];[2000-05];great;first_person_shooter;[Rare];[Rare]
+[Persona 2: Eternal Punishment];[ps1][psp];;;;;
+[Persona 2: Innocent Sin];[ps1][psp];;;;;
+[Persona 3 FES];[ps2];;;;;
+[Persona 3 Portable];[psp][win][swi][ps4][xb1][xsx];;;;;
+[Persona 3: Dancing in Moonlight];[ps4][psv];;;;;
+[Persona 3];[ps2];;;;;
+[Persona 4 Arena Ultimax];[ps3][x36][win][swi][ps4];;;;;
+[Persona 4 Golden];[psv][win][swi][ps4][xb1][xsx];;;;;
+[Persona 4: Dancing All Night];[ps4][psv];;;;;
+[Persona 4];[ps2];;;;;
+[Persona 5 Royal];[ps4][swi][win][xb1][xsx][ps5];;;;;
+[Persona 5 Strikers];[swi][ps4][win];;;;;
+[Persona 5: Dancing in Starlight];[ps4][psv];;;;;
+[Persona 5];[ps3][ps4];;;;;
+[Persona Q: Shadow of the Labyrinth];[n3d];;;;;
+[Persona Q2: New Cinema Labyrinth];[n3d];;;;;
+[Persona: Revelations];[ps1][win][psp];;;;;
 [Pikmin 2];[gcn][wii];;great;rt_strategypuzzle;Nintendo EAD;[Nintendo]
 [Pikmin 3];[wiu][swi];;great;rt_strategypuzzle;Nintendo EAD;[Nintendo]
 [Pikmin];[gcn][wii];;great;rt_strategypuzzle;Nintendo EAD;[Nintendo]
@@ -278,7 +351,7 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Pokemon Battle Revolution ];[wii];;ok;tb_strategy;Genius Sonority;[Nintendo]
 [Pokemon Black 2];[nds];[2012-06];great;tb_rpg;[Game Freak];[Nintendo]
 [Pokemon Black];[nds];[2010-09];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Blue];[gb];[1998-09];great;tb_rpg;[Game Freak];[Nintendo]
+[Pokemon Blue];[gby];[1998-09];great;tb_rpg;[Game Freak];[Nintendo]
 [Pokemon Box: Ruby & Sapphire];[gcn];[2003-05];ok;tb_rpg;[Game Freak];[Nintendo]
 [Pokemon Brilliant Diamond];[swi];[2021-11];good;tb_rpg;[ILCA];[Nintendo]
 [Pokemon Colosseum];[gcn];[2003-11];good;tb_rpg;[Genius Sonority];[Nintendo]
@@ -298,7 +371,7 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Pokemon Pearl];[nds];[2006-09];great;tb_rpg;[Game Freak];[Nintendo]
 [Pokemon Platinum];[nds];[2008-09];great;tb_rpg;[Game Freak];[Nintendo]
 [Pokemon Puzzle League];[n64];[2000-09];great;puzzle;[Nintendo ST];[Nintendo]
-[Pokemon Red];[gb];[1998-09];great;tb_rpg;[Game Freak];[Nintendo]
+[Pokemon Red];[gby];[1998-09];great;tb_rpg;[Game Freak];[Nintendo]
 [Pokemon Ruby];[gba];[2002-11];great;tb_rpg;[Game Freak];[Nintendo]
 [Pokemon Rumble U];[wiu];;bad;action_rpg;Ambrella;[Nintendo]
 [Pokemon Sapphire];[gba];[2002-11];great;tb_rpg;[Game Freak];[Nintendo]
@@ -320,7 +393,7 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Pokemon X];[n3d];[2013-10];great;tb_rpg;[Game Freak];[Nintendo]
 [Pokemon XD: Gale of Darkness];[gcn];[2005-08];ok;tb_rpg;[Genius Sonority];[Nintendo]
 [Pokemon Y];[n3d];[2013-10];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Yellow];[gb];[1998-09];great;tb_rpg;[Game Freak];[Nintendo]
+[Pokemon Yellow];[gby];[1998-09];great;tb_rpg;[Game Freak];[Nintendo]
 [PokePark 2: Wonders Beyond ];[wii];;ok;action_adv;Creatures Inc;[Nintendo]
 [PokePark Wii: Pikachu's Adventure ];[wii];;ok;action_adv;Creatures Inc;[Nintendo]
 [Pokken Tournament];[wiu][swi][arc];;good;fighting;Bandai Namco;[Nintendo]
@@ -380,8 +453,8 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Super Mario Galaxy 2];[wii];;great;3d_platform;Nintendo EAD;[Nintendo]
 [Super Mario Galaxy];[wii];;great;3d_platform;Nintendo EAD;[Nintendo]
 [Super Mario Kart];[sfc];;great;racing;Nintendo EAD;[Nintendo]
-[Super Mario Land 2: 6 Golden Coins];[gb];;great;2d_platform;Nintendo R&D1;[Nintendo]
-[Super Mario Land];[gb];;great;2d_platform;Nintendo R&D1;[Nintendo]
+[Super Mario Land 2: 6 Golden Coins];[gby];;great;2d_platform;Nintendo R&D1;[Nintendo]
+[Super Mario Land];[gby];;great;2d_platform;Nintendo R&D1;[Nintendo]
 [Super Mario Maker 2];[swi];;great;2d_platformsandbox;Nintendo EAD;[Nintendo]
 [Super Mario Maker];[wiu][n3d];;great;2d_platformsandbox;Nintendo EAD;[Nintendo]
 [Super Mario Odyssey];[swi];;great;3d_platform;Nintendo EPD;[Nintendo]
@@ -402,13 +475,13 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Super Smash Bros. Ultimate];[swi];;great;fighting;Bandai Namco Sora Ltd.;[Nintendo]
 [Super Smash Bros.];[n64];[1999-01];great;fighting;HAL Laboratory;[Nintendo]
 [Tatsunoko vs. Capcom: Ultimate All-Stars];[arc][wii];;great;fighting;Eighting;[Capcom]
-[Tennis];[nes][arc][gb];;ok;tennis;Nintendo EAD Intelligent Systems;[Nintendo]
+[Tennis];[nes][arc][gby];;ok;tennis;Nintendo EAD Intelligent Systems;[Nintendo]
 [Terraria];[win][ps3][ps4][n3d][mac][lin][x36][xb1][wiu][swi][ps5][xsx][psv][ios][and];;great;action_advsandbox;Re-Logic;505 Games
 [Tetris & Dr. Mario];[sfc];[1994-12];great;puzzle;[Intelligent Systems];[Nintendo]
-[Tetris 2];[nes][gb][sfc];;good;puzzle;Nintendo R&D1Tose;[Nintendo]
-[Tetris Attack];[sfc],[gb];[1995-10][1996-08];great;puzzle;[Intelligent Systems];[Nintendo]
+[Tetris 2];[nes][gby][sfc];;good;puzzle;Nintendo R&D1Tose;[Nintendo]
+[Tetris Attack];[sfc],[gby];[1995-10][1996-08];great;puzzle;[Intelligent Systems];[Nintendo]
 [Tetris DS];[nds];;great;puzzle;Nintendo SPD;[Nintendo]
-[Tetris];[nes][gb];;great;puzzle;Nintendo R&D1;[Nintendo]
+[Tetris];[nes][gby];;great;puzzle;Nintendo R&D1;[Nintendo]
 [The House of the Dead: Overkill];[wii][ps3][win][ios][and];;good;rail_shooter;Headstrong Games;Sega
 [The Legend of Zelda: Breath of the Wild];[wiu][swi];;great;action_adv;Nintendo EPD;[Nintendo]
 [The Legend of Zelda: Majora's Mask];[n64];[2000-04];great;action_adv;[Nintendo EAD];[Nintendo]
@@ -422,11 +495,11 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [The Wonderful 101];[wiu][swi][ps4][win];;great;action_advhack_slashbeat_em_up;PlatinumGames;[Nintendo]PlatinumGames
 [Tokyo Mirage Sessions ♯FE];[wiu][swi];;great;tb_rpg;Atlus;[Nintendo]
 [Virtual Boy Wario Land];[vb];;great;2d_platform;Nintendo R&D1;[Nintendo]
-[Wario Land 2];[gb][gbc];;great;2d_platform;Nintendo R&D1;[Nintendo]
+[Wario Land 2];[gby][gbc];;great;2d_platform;Nintendo R&D1;[Nintendo]
 [Wario Land 3];[gbc];;great;2d_platform;Nintendo R&D1;[Nintendo]
 [Wario Land 4];[gba];;great;2d_platform;Nintendo R&D1;[Nintendo]
 [Wario Land: Shake It!];[wii];;good;2d_platform;Good-Feel;[Nintendo]
-[Wario Land: Super Mario Land 3];[gb];;great;2d_platform;Nintendo R&D1;[Nintendo]
+[Wario Land: Super Mario Land 3];[gby];;great;2d_platform;Nintendo R&D1;[Nintendo]
 [Wario World];[gcn];;good;3d_platform;Treasure;[Nintendo]
 [Wario: Master of Disguise];[nds];;ok;2d_platform;Suzak;[Nintendo]
 [Wario’s Woods];[nes][sfc];;good;puzzle;TEC;[Nintendo]
@@ -452,6 +525,7 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Wii Sports Club];[wiu];;ok;sport;Bandai NamcoNintendo EAD;[Nintendo]
 [Wii Sports Resort];[wii];;great;sport;Nintendo EAD;[Nintendo]
 [Wii Sports];[wii];;good;sport;Nintendo EAD;[Nintendo]
+[World of Goo];[wiw][win][mac][lin][ios][and][swi];[2008-10];great;puzzle;[2D Boy];[2D Boy]
 [Wrecking Crew];[nes][arc];;good;actionpuzzle;Nintendo R&D1;[Nintendo]
 [Xenoblade Chronicles 2: Torna – The Golden Country];[swi];;great;action_rpg;Monolith Soft;[Nintendo]
 [Xenoblade Chronicles 2];[swi];;great;action_rpg;Monolith Soft;[Nintendo]
@@ -465,8 +539,12 @@ NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOP
 [Yoshi's Story];[n64];[1997-12];good;2d_platform;Nintendo EAD;[Nintendo]
 [Yoshi's Universal Gravitation];[gba];;ok;2d_platform;Artoon;[Nintendo]
 [Yoshi's Woolly World];[wiu][n3d];[2015-06][2017-01];good;2d_platform;[Good-Feel];[Nintendo]
-[Yoshi’s Cookie];[nes][gb][sfc];[1992-11][1992-11][1993-06];good;puzzle;[Tose],[Bullet-Proof Software];[Nintendo],[Bullet-Proof Software]
-[Yoshi];[nes][gb];;ok;puzzle;Game Freak;[Nintendo]
+[Yoshi’s Cookie];[nes][gby][sfc];[1992-11][1992-11][1993-06];good;puzzle;[Tose],[Bullet-Proof Software];[Nintendo],[Bullet-Proof Software]
+[Yoshi];[nes][gby];;ok;puzzle;Game Freak;[Nintendo]
 [Zack & Wiki: Quest for Barbaros' Treasure];[wii];[2007-10];great;point_clickpuzzleadventure;[Capcom];[Capcom]
 [Zangeki no Reginleiv];[wii];[2010-02];good;action;[Sandlot];[Nintendo]
-[World of Goo];[wiw][win][mac][lin][ios][and][swi];[2008-10];great;puzzle;[2D Boy];[2D Boy]
+[Art Academy];[nds];;;;;
+[Art Academy: Lessons for Everyone!];[n3d];;;;;
+[Balloon Kid];[gbx];;;;;
+[Battle Clash];[sfc];;;;;
+[Metal Combat: Falcon’s Revenge];[sfc];;;;;
