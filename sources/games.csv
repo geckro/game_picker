@@ -1,550 +1,1368 @@
-NAME;CONSOLE;DATE;QTY (80% great 70% good 50% ok 30% bad 0% awful);GENRE;DEVELOPER;PUBLISHER
-[1080 Snowboarding];[n64];[1998-02];great;snowboarding;Nintendo EAD;[Nintendo]
-[1080° Avalanche];[gcn];;good;snowboarding;Nintendo ST;[Nintendo]
-[A Boy and His Blob: Trouble on Blobolonia];[nes];;;;;
-[A Boy and His Blob];[wii][win][lin][mac][ps4][psv][xb1][swi][and][ios][ps3];;great;puzzle_platform;WayForward;Majesco Entertainment
-[Ace Attorney Investigations: Miles Edgeworth];[nds][and][ios];;;;;
-[Advance Wars 2: Black Hole Rising];[gba];;great;turn_based_strategy;Intelligent Systems;[Nintendo]
-[Advance Wars: Days of Ruin];[nds];;great;turn_based_strategy;Intelligent Systems;[Nintendo]
-[Advance Wars: Dual Strike];[nds];;great;turn_based_strategy;Intelligent Systems;[Nintendo]
-[Advance Wars];[gba];;great;turn_based_strategy;Intelligent Systems;[Nintendo]
-[Animal Crossing: Amiibo Festival];[wiu];;bad;party;Nintendo EPDNdcube;[Nintendo]
-[Animal Crossing: City Folk];[wii];;ok;life_sim;Nintendo EAD;[Nintendo]
-[Animal Crossing: Happy Home Designer];[n3d];;ok;sandbox;Nintendo EAD;[Nintendo]
-[Animal Crossing: New Horizons];[swi];;great;life_sim;Nintendo EPD;[Nintendo]
-[Animal Crossing: New Leaf];[n3d];;great;life_sim;Nintendo EAD;[Nintendo]
-[Animal Crossing: Wild World];[nds];;great;life_sim;Nintendo EAD;[Nintendo]
-[Animal Crossing];[gcn];;great;life_sim;Nintendo EAD;[Nintendo]
-[Another Code: R – A Journey into Lost Memories];[wii];;ok;point_click;Cing;[Nintendo]
-[Another Code: Two Memories];[nds];;good;point_click;Cing;[Nintendo]
-[Anubis II];[ps2][win][wii];;awful;action;Data Design Interactive;Data Design InteractiveMetro 3D Europe
-[Apollo Justice: Ace Attorney];[nds][ios][and][n3d];;;;;
-[Arc Rise Fantasia];[wii];;ok;tb_rpg;ImageepochMarvelous Entertainment;Marvelous EntertainmentIgnition Entertainment
-[Avalon Code];[nds];;;;;
-[Babysitting Mama];[wii];;good;simulationminigame;Cooking Mama Ltd.;Square Enix Majesco Entertainment 505 Games
-[Balloon Fight];[nes][arc];;good;action;Nintendo R&D1;[Nintendo]
-[Band Hero];[ps2][ps3][wii][nds][x36];;good;rhythm;NeversoftVicarious Visions;Activision
-[Banjo-Kazooie: Grunty's Revenge];[gba];;good;3d_platform;Rare;THQ
-[Banjo-Kazooie: Nuts & Bolts];[x36];;good;3d_platform;Rare;Microsoft
-[Banjo-Kazooie];[n64];[1998-06];great;3d_platform;Rare;[Nintendo]
-[Banjo-Pilot];[gba];;ok;racing;Rare;THQ
-[Banjo-Tooie];[n64];[2000-11];great;3d_platform;Rare;[Nintendo]
-[Barker Bill's Trick Shooting];[nes];;ok;light_gun;Nintendo R&D2;[Nintendo]
-[Baseball];[nes][gby][arc];;ok;baseball;Nintendo R&D1;[Nintendo]
-[Battalion Wars 2];[wii];;good;actionrt_tactic;Kuju Entertainment ;[Nintendo]
-[Battalion Wars];[gcn];;good;real_time_tactics;Kuju;[Nintendo]
-[Bayonetta 2];[wiu][swi];;great;hack_slashaction_adv;PlatinumGames;[Nintendo]
-[Bayonetta 3];[swi];;great;action_advhack_slash;PlatinumGames;[Nintendo]
-[Bayonetta];[ps3][x36][wiu][swi][win][ps4][xb1];;great;hack_slashaction_adv;PlatinumGames;Sega[Nintendo]
-[Bejeweled 3];[win][mac][ps3][x36][nds][ios][and];;;;;
-[Bejeweled Twist];[win][nds][dsi];;;;;
-[Big Brain Academy: Wii Degree];[wii];;ok;puzzleedutainment;Nintendo EAD;[Nintendo]
-[Big Brain Academy];[nds];;;;;
-[Bit.Trip Complete];[wii];;great;comp;Choice Provisions;Aksys Games
-[Blast Corps];[n64];[1997-03];great;action,puzzle;[Rare];[Nintendo]
-[Blood of Bahamut];[nds];;great;action_rpg;Think & Feel;Square Enix
-[Blue Dragon: Awakened Shadow];[nds];;;;;
-[Bomberman 2];[nds];;;;;
-[Bomberman Blast];[wiw][wii];[2008-09][2008-09];great;action;[Hudson];[Hudson]
-[Bomberman Land Touch 2];[nds];;;;;
-[Bomberman Land Touch];[nds];;;;;
-[Bomberman Land];[wii];;ok;actionpuzzle;HudsonRacjin;Hudson
-[Bomberman Story DS];[nds];;;;;
-[Bomberman];[nds];;;;;
-[Brain Age 2: More Training in Minutes a Day];[nds];;;;;
-[Brain Age: Train Your Brain in Minutes a Day];[nds];;;;;
-[Call of Duty 3];[ps2][xbox][x36][wii][ps3];;great;fps;Treyarch;Activision
-[Call of Duty 4: Modern Warfare];[win][ps3][x36][mac][wii];;great;fps;Infinity Ward;Activision
-[Call of Duty 4: Modern Warfare];[nds];;;;;
-[Call of Duty: Black Ops];[win][nds][ps3][wii][x36][mac];;great;fps;Treyarch;Activision
-[Call of Duty: Modern Warfare 3 – Defiance];[nds];;;;;
-[Call of Duty: Modern Warfare 3];[win][ps3][x36][wii];;good;fps;Infinity Ward;Activision
-[Call of Duty: Modern Warfare: Mobilized];[nds];;;;;
-[Call of Duty: World at War];[nds];;;;;
-[Camping Mama: Outdoor Adventures];[nds];;ok;simulationminigame;Cooking Mama Ltd.;Office Create Majesco Entertainment 505 Games
-[Captain Rainbow];[wii];;good;action_adv;Skip Ltd.;[Nintendo]
-[Captain Toad: Treasure Tracker];[wiu][swi][n3d];;great;puzzle;Nintendo EAD;[Nintendo]
-[Carnival Games];[wii][nds][ios];;;;;
-[Castlevania 64];[n64];[1999-01];good;action_adv,3d_platform;[Konami];[Konami]
-[Castlevania Judgment];[wii];;bad;fighting;Eighting;Konami
-[Castlevania: Dawn of Sorrow];[nds];;;;;
-[Castlevania: Legacy of Darkness];[n64];[1999-12];ok;action_adv,3d_platform;[Konami];[Konami]
-[Castlevania: Order of Ecclesia];[nds];;;;;
-[Castlevania: Portrait of Ruin];[nds];;;;;
-[Chibi-Robo!: Park Patrol];[nds];;;;;
-[Children of Mana];[nds];;ok;action_rpg;Square EnixNex Entertainment;Square Enix
-[Chrono Trigger];[sfc][ps1][nds][win][ios][and];;great;tb_rpg;Square;SquareSquare Enix
-[Clu Clu Land];[nes];;ok;puzzle;Nintendo R&D1;[Nintendo]
-[Clubhouse Games];[nds][dsi];;;;;
-[Conker: Live & Reloaded];[xbox];;good;3d_platform;Rare;Microsoft
-[Conker's Bad Fur Day];[n64];[2001-03];great;3d_platform;Rare;Rare
-[Conker's Pocket Tales];[gbc];;ok;action_adv;Rare;Rare
-[Contact];[nds];;;;;
-[Contra 4];[nds];;;;;
-[Cooking Mama 2: Dinner with Friends];[nds];;good;simulationminigame;Cooking Mama Ltd.;Taito Majesco Entertainment 505 Games
-[Cooking Mama 3: Shop & Chop];[nds];;ok;simulationminigame;Cooking Mama Ltd.;Taito Majesco Entertainment 505 Games
-[Cooking Mama 4: Kitchen Magic];[n3d];;ok;simulationminigame;Cooking Mama Ltd.;Office Create Majesco Entertainment 505 Games
-[Cooking Mama 5: Bon Appétit!];[n3d];;ok;simulationminigame;Cooking Mama Ltd.;Office Create Majesco Entertainment [Nintendo]
-[Cooking Mama: Cook Off];[wii];;ok;simulationminigame;Cooking Mama Ltd.;Taito Majesco Entertainment 505 Games
-[Cooking Mama: Cookstar];[swi][ps4];;bad;simulationminigame;1st Playable Productions;Planet Entertainment Ravenscourt
-[Cooking Mama: World Kitchen];[wii];;ok;simulationminigame;Cooking Mama Ltd.;Taito Majesco Entertainment 505 Games
-[Cooking Mama];[nds][ios];;ok;simulationminigame;Office Create;Taito Majesco Entertainment 505 Games
-[Crafting Mama];[nds];;good;simulationminigame;Cooking Mama Ltd.;Square Enix Majesco Entertainment 505 Games
-[Crash Boom Bang!];[nds];;;;;
-[Crash of the Titans];[nds];;;;;
-[Crash: Mind over Mutant];[ps2][wii][x36][psp][nds];;;;;
-[Crosswords DS];[nds];;;;;
-[Custom Robo Arena];[nds];;;;;
-[Custom Robo V2];[n64];[2000-11];great;action_rpg;[Noise];[Nintendo]
-[Custom Robo];[n64];[1999-12];great;action_rpg;[Noise];[Nintendo]
-[Dance Dance Revolution: Mario Mix];[gcn];;good;rhythm;KonamiHudson;[Nintendo]
-[Dead Rising: Chop Till You Drop];[wii];;ok;action_adv;Tose;[Capcom]
-[Deadly Creatures];[wii];;good;action;Rainbow Studios;THQ
-[Devil's Third];[wiu];;bad;action_advhack_slash;Nintendo SPD;[Nintendo]
-[Dewy’s Adventure];[wii];;good;3d_platform;Konami;Konami
-[Diddy Kong Racing DS];[nds];;ok;racing;Rare;[Nintendo]
-[Diddy Kong Racing];[n64];[1997-11];great;racing;Rare;Rare
-[Disaster: Day of Crisis];[wii];;good;action_advsurvlgs;Monolith Soft;[Nintendo]
-[DK: Jungle Climber];[nds];;good;puzzle_platform;Paon;[Nintendo]
-[DK: King of Swing];[gba];;good;puzzle_platform;Paon;[Nintendo]
-[Donkey Kong 3];[arc][nes];;good;2d_platformshooter;Nintendo R&D1;[Nintendo]
-[Donkey Kong 64];[n64];[1999-11];great;3d_platform;Rare;[Nintendo]
-[Donkey Kong 94];[gby];;great;2d_platformpuzzle;Pax Softnica;[Nintendo]
-[Donkey Kong Barrel Blast];[wii];;bad;racing;Paon;[Nintendo]
-[Donkey Kong Country 2];[sfc][gba];;great;2d_platform;Rare;[Nintendo]
-[Donkey Kong Country 3];[sfc][gba];;great;2d_platform;Rare;[Nintendo]
-[Donkey Kong Country Returns];[wii][n3d];;great;2d_platform;Retro Studios;[Nintendo]
-[Donkey Kong Country: Tropical Freeze];[wiu][swi];;great;2d_platform;Retro Studios;[Nintendo]
-[Donkey Kong Country];[sfc][gbc][gba];;great;2d_platform;Rare;[Nintendo]
-[Donkey Kong Jr. Math];[nes];;bad;edutainment;Nintendo R&D2;[Nintendo]
-[Donkey Kong Jr.];[arc][a26][a78][nes][itv][col];;great;2d_platform;Nintendo R&D1;[Nintendo]
-[Donkey Kong Jungle Beat];[gcn][wii];;great;2d_platform;Nintendo EAD;[Nintendo]
-[Donkey Kong Land 2];[gby];;good;2d_platform;Rare;[Nintendo]
-[Donkey Kong Land 3];[gby][gbc];;good;2d_platform;Rare;[Nintendo]
-[Donkey Kong Land];[gby];;good;2d_platform;Rare;[Nintendo]
-[Donkey Kong];[arc][nes][a26][itv][col][c64][a78];;good;2d_platform;Nintendo R&D1;[Nintendo]
-[Donkey Konga 2];[gcn];;good;rhythm;Namco;[Nintendo]
-[Donkey Konga 3];[gcn];;good;rhythm;Namco;[Nintendo]
-[Donkey Konga];[gcn];;good;rhythm;Namco;[Nintendo]
-[Doom 2016];[win][ps4][xb1][swi];;;;;
-[Doom 3: Resurrection of Evil];[win][lin][xbx];;;;;
-[Doom 3];[win][lin][mac][xbx][ps3][x36][ps4][xb1][swi];;;;;
-[Doom 64];[n64][win][swi][ps4][xb1];[1997-04][2020-03][2020-03][2020-03][2020-03];good;first_person_shooter;[Midway];[Midway],[Besthesda]
-[Doom Eternal];[win][ps4][xb1][swi][ps5][xsx];;;;;
-[Doom II: Hell on Earth];[dos][mac][gba][x36][sat][ps1][ps3][swi][ps4][xb1][and][ios];[1994-10][1995-06][2002-10][2010-05][1997-03][1995-11][2012-11][[2019-07][2019-07][2019-07][2019-07]2019-07];great;first_person_shooter;[id Software];[GT Interactive]
-[Doom];[dos][32x][jag][mac][sfc][ps1][3do][sat][gba][x36][ios][ps3][and][swi][ps4][xb1];[1993-12][1994-11][1994-11][1994-11][1995-09][1995-11][1996-04][1997-03][2001-10][2006-09][2009-10][2012-11][2019-07][2019-07][2019-07][2019-07];great;first_person_shooter;[id Software];[id Software]
-[Double Dragon];[arc][nes][sms];;good;beat_em_up;Technos;Taito
-[Dr. Luigi];[wiu];;ok;puzzle;ArikaNintendo SPD;[Nintendo]
-[Dr. Mario 64];[n64];[2001-04];good;puzzle;Nintendo ;[Nintendo]
-[Dr. Mario Express];[dsw];;good;puzzle;Arika;[Nintendo]
-[Dr. Mario Online Rx];[wiw];;good;puzzle;Arika;[Nintendo]
-[Dr. Mario World];[and][ios];;ok;puzzle;Nintendo EPD;[Nintendo]
-[Dr. Mario: Miracle Cure];[n3d];;ok;puzzle;Tose;[Nintendo]
-[Dr. Mario];[nes][arc][gby];;good;puzzle;Nintendo R&D1;[Nintendo]
-[Dragon Quest IV: Chapters of the Chosen];[nes][ps1][nds][and][ios];;great;tb_rpg;ChunsoftHeartbeatArtePiazza;EnixSquare Enix
-[Dragon Quest IX: Sentinels of the Starry Skies];[nds];;great;tb_rpg;Level-5Square Enix;Square Enix[Nintendo]
-[Dragon Quest V: Hand of the Heavenly Bride];[sfc][ps2][nds][and][ios];;great;tb_rpg;ChunsoftArtePiazza;EnixSquare Enix
-[Dragon Quest VI: Realms of Revelation];[sfc][nds][ios][and];;great;tb_rpg;Heartbeat;EnixSquare Enix[Nintendo]
-[Dragon Quest];[nes][gbc];;good;tb_rpg;Chunsoft;[Nintendo]Enix
-[Drawn to Life];[nds][ios];;;;;
-[Duck Hunt];[nes][arc];;good;light_gun;Nintendo R&D1Intelligent Systems;[Nintendo]
-[DuckTales: Remastered];[ps3][x36][wiu][win][ios][and];;good;2d_platformmetroidvania;WayForward;[Capcom]
-[Elebits];[wii];;good;actionfps;Konami;Konami
-[Endless Ocean: Blue World];[wii];;good;adventuresimulation;Arika;[Nintendo]
-[Endless Ocean];[wii];;good;adventuresimulation;Arika;[Nintendo]
-[Etrian Mystery Dungeon 2];[n3d];;;;;
-[Etrian Mystery Dungeon];[n3d];;;;;
-[Etrian Odyssey 2 Untold: The Fafnir Knight];[n3d];;;;;
-[Etrian Odyssey II: Heroes of Lagaard];[nds];;;;;
-[Etrian Odyssey III: The Drowned City];[nds];;;;;
-[Etrian Odyssey IV: Legends of the Titan];[n3d];;;;;
-[Etrian Odyssey Nexus];[n3d];;;;;
-[Etrian Odyssey Untold: The Millennium Girl];[n3d];;;;;
-[Etrian Odyssey V: Beyond the Myth];[n3d];;;;;
-[Etrian Odyssey];[nds];;;;;
-[Excite Truck];[wii];;good;racing;Monster Games;[Nintendo]
-[Excitebike 64];[n64];[2000-04];great;racing;[Left Field Productions];[Nintendo]
-[Excitebike];[nes][arc];;great;racing;Nintendo R&D4;[Nintendo]
-[Excitebots: Trick Racing];[wii];;great;racing;Monster Games;[Nintendo]
-[F-Zero Climax];[gba];;;;;
-[F-Zero GX];[gcn];;;;;
-[F-Zero X];[n64];[1998-07];great;racing;[Nintendo EAD];[Nintendo]
-[F-Zero: GP Legend];[gba];;;;;
-[F-Zero: Maximum Velocity];[gba];;;;;
-[F-Zero];[sfc];;;;;
-[Fatal Frame: Maiden of Black Water];[wiu][swi][ps4][ps5][win][xb1][xsx];;good;surv_horror;Koei Tecmo;[Nintendo] Koei Tecmo
-[Fatal Frame: Mask of the Lunar Eclipse];[wii];;great;surv_horror;TecmoGrasshopper;[Nintendo]
-[Faxanadu];[nes];;good;action_rpg2d_platform;Hudson;[Nintendo]
-[Final Doom];[dos][ps1][mac][ps3];;;;;
-[Final Fantasy II];[nes][ps1];;great;tb_rpg;Square;Square
-[Final Fantasy III];[nes];;good;tb_rpg;Square;Square
-[Final Fantasy IV];[sfc][ps1][gba];;great;tb_rpg;Square;Square
-[Final Fantasy IX];[ps1][win][ios][ps4][and][swi][xb1];;great;tb_rpg;Square;SquareSony
-[Final Fantasy V];[sfc][ps1][gba];;great;tb_rpg;Square;Square
-[Final Fantasy VI];[sfc][ps1][gba];;great;tb_rpg;Square;Square
-[Final Fantasy VII];[ps1][win][ios][ps4][and][swi][xb1];;great;tb_rpg;Square;SquareSony
-[Final Fantasy VIII];[ps1][win][ios][ps4][and][swi][xb1];;great;tb_rpg;Square;SquareSony
-[Final Fantasy X];[ps2];;great;tb_rpg;Square;SquareSony
-[Final Fantasy XI: Online];[ps2][x36][win];;good;mmorpg;Square;SquareSonySquare Enix
-[Final Fantasy XII];[ps2][ps4][win][swi][xb1];;great;tb_rpg;Square Enix;Square Enix
-[Final Fantasy XIII];[ps3][x36][win];;good;tb_rpg;Square Enix;Square Enix
-[Final Fantasy XIV: A Realm Reborn];[win][ps3][ps4][mac][ps5];;great;mmorpg;Square Enix;Square Enix
-[Final Fantasy XIV];[win];;bad;mmorpg;Square Enix;Square Enix
-[Final Fantasy XV];[win][ps4][xb1];;great;action_rpg;Square Enix;Square Enix
-[Final Fantasy];[nes][ps1];;good;tb_rpg;Square;[Nintendo]
-[Fire Emblem: Radiant Dawn ];[wii];;great;tactical_rpg;Intelligent Systems;[Nintendo]
-[FlingSmash];[wii];;bad;action;Artoon;[Nintendo]
-[Fortune Street];[wii];;good;party;Marvelous;[Nintendo]Square Enix
-[Game & Wario];[wiu];;ok;party;Nintendo SPDIntelligent Systems;[Nintendo]
-[Game & Watch Collection 2];[nds];;ok;comp;Nintendo ;[Nintendo]
-[Game & Watch Collection];[nds];;ok;comp;Nintendo ;[Nintendo]
-[Gardening Mama 2: Forest Friends];[n3d];;bad;simulationminigame;Cooking Mama Ltd.;Office Create Majesco Entertainment [Nintendo]
-[Gardening Mama];[nds];;ok;simulationminigame;Cooking Mama Ltd.;Taito Majesco Entertainment 505 Games
-[GoldenEye 007];[n64];[1997-08];great;first_person_shooter;[Rare];[Nintendo]
-[GoldenEye 007];[wii][nds][ps3][x36];;;;;
-[Golf];[nes][gby][arc];;good;golf;Nintendo R&D3;[Nintendo]
-[Hce Climber];[nes][arc];;good;2d_platform;Nintendo R&D1;[Nintendo]
-[Hey You, Pikachu!];[n64];[1998-12];ok;digital_pet,life_sim;[Ambrella];[Nintendo]
-[Hi Hamtaro! Ham-Ham Training];[nds];;;;;
-[Hogan’s Alley];[nes][arc];;good;light_gun;Nintendo R&D1Intelligent Systems;[Nintendo]
-[Hollow Knight];[win][lin][mac][swi][ps4][xb1];;great;metroidvania;Team Cherry;Team Cherry
-[Izuna: Legend of the Unemployed Ninja];[nds];;;;;
-[Jet Force Gemini];[n64];[1999-10];great;third_person_shooter,action_adv;[Rare];[Rare]
-[Killer Instinct Gold];[n64];[1996-11];ok;fighting;[Rare];[Nintendo]
-[Kirby 64: The Crystal Shards];[n64];[2000-03];good;2d_platform;[HAL Laboratory];[Nintendo]
-[Kirby and the Rainbow Curse];[wiu];;good;2d_platform;HAL Laboratory;[Nintendo]
-[Kirby's Dream Collection];[wii];;great;comp;HAL Laboratory;[Nintendo]
-[Kirby's Epic Yarn];[wii][n3d];;great;2d_platform;HAL LaboratoryGood-Feel;[Nintendo]
-[Kirby's Return to Dream Land];[wii];;great;2d_platform;HAL LaboratoryGood-Feel;[Nintendo]
-[Knuckles’ Chaotix];[s32x];;ok;2d_platform;Sega;Sega
-[Lego City Undercover];[wiu][swi][xb1][win][ps4];;great;action_adv;TT Fusion;[Nintendo] Warner Bros.
-[Link’s Crossbow Training];[wii];;ok;shooter;Nintendo EAD;[Nintendo]
-[Luigi's Mansion 3];[swi];;great;action_adv;Next Level Games;[Nintendo]
-[Luigi's Mansion: Dark Moon];[n3d];;great;action_adv;Next Level Games;[Nintendo]
-[Luigi’s Mansion];[gcn][n3d];;good;action_adv;Nintendo EAD;[Nintendo]
-[Mario & Luigi: Bowser's Inside Story];[nds][n3d];;great;tb_rpg;AlphaDream;[Nintendo]
-[Mario & Luigi: Dream Team];[n3d];;great;tb_rpg;AlphaDream;[Nintendo]
-[Mario & Luigi: Paper Jam];[n3d];;good;tb_rpg;AlphaDream;[Nintendo]
-[Mario & Luigi: Partners in Time];[nds];;great;tb_rpg;AlphaDream;[Nintendo]
-[Mario & Luigi: Superstar Saga];[gba][n3d];;great;tb_rpg;AlphaDream;[Nintendo]
-[Mario & Sonic at the London 2012 Olympic Games];[wii][n3d];;ok;sport;SegaRacjin;[Nintendo]Sega
-[Mario & Sonic at the Olympic Games Tokyo 2020];[swi][arc];;good;sport;Sega;Sega
-[Mario & Sonic at the Olympic Games];[wii][nds];;ok;sport;Sega;[Nintendo]Sega
-[Mario & Sonic at the Olympic Winter Games];[wii][nds];;good;sport;Sonic TeamRacjin;[Nintendo]Sega
-[Mario & Sonic at the Rio 2016 Olympic Games];[n3d][wiu][arc];;ok;sportparty;Sega;[Nintendo]
-[Mario & Sonic at the Sochi 2014 Olympic Winter Games];[wiu];;ok;sportparty;Sega;[Nintendo]
-[Mario + Rabbids Kingdom Battle];[swi];;great;turn_based_tactics;Ubisoft;Ubisoft
-[Mario + Rabbids Sparks of Hope];[swi];;great;turn_based_strategy;Ubisoft;Ubisoft
-[Mario and Donkey Kong: Minis on the Move];[n3d];;good;puzzle;Nintendo ST;[Nintendo]
-[Mario Bros.];[arc][nes][a26][a52][a78][c64];;great;arcade;Nintendo R&D1Intelligent Systems;[Nintendo]
-[Mario Clash];[vb];;good;arcade;Nintendo R&D1;[Nintendo]
-[Mario Golf (GBC)];[gbc];;great;golf;Camelot;[Nintendo]
-[Mario Golf: Advance Tour];[gba];;great;golf;Camelot;[Nintendo]
-[Mario Golf: Super Rush];[swi];;good;golf;Camelot;[Nintendo]
-[Mario Golf: Toadstool Tour];[gcn];;great;golf;Camelot;[Nintendo]
-[Mario Golf: World Tour];[n3d];;great;golf;Camelot;[Nintendo]
-[Mario Golf];[n64];[1999-06];great;golf;Camelot;[Nintendo]
-[Mario Hoops 3-on-3];[nds];;good;sport;Square Enix;[Nintendo]
-[Mario Kart 64];[n64];[1996-12];great;racing;Nintendo EAD;[Nintendo]
-[Mario Kart 7];[n3d];;great;racing;Nintendo EAD;[Nintendo]
-[Mario Kart 8];[wiu][swi];;great;racing;Nintendo EAD;[Nintendo]
-[Mario Kart DS];[nds];;great;racing;Nintendo EAD;[Nintendo]
-[Mario Kart Live: Home Circuit];[swi];;good;racing;Velan Studios;[Nintendo]
-[Mario Kart Tour];[and][ios];;ok;racing;Nintendo EPD;[Nintendo]
-[Mario Kart Wii];[wii];;great;racing;Nintendo EAD;[Nintendo]
-[Mario Kart: Double Dash];[gcn];;great;racing;Nintendo EAD;[Nintendo]
-[Mario Kart: Super Circuit];[gba];;great;racing;Intelligent Systems;[Nintendo]
-[Mario Paint];[sfc];;great;sandboxart;Nintendo R&D1Intelligent Systems;[Nintendo]
-[Mario Party 10];[wiu];;ok;party;NDCube;[Nintendo]
-[Mario Party 2];[n64];[1999-12];good;party;Hudson;[Nintendo]
-[Mario Party 3];[n64];[2000-12];good;party;Hudson;[Nintendo]
-[Mario Party 4];[gcn];;good;party;Hudson;[Nintendo]
-[Mario Party 5];[gcn];;ok;party;Hudson;[Nintendo]
-[Mario Party 6];[gcn];;good;party;Hudson;[Nintendo]
-[Mario Party 7];[gcn];;ok;party;Hudson;[Nintendo]
-[Mario Party 8];[wii];;good;party;Hudson;[Nintendo]
-[Mario Party 9];[wii];;ok;party;NDCube;[Nintendo]
-[Mario Party Advance];[gba];;ok;party;Hudson;[Nintendo]
-[Mario Party DS];[nds];;good;party;Hudson;[Nintendo]
-[Mario Party Superstars];[swi];;great;party;NDCube;[Nintendo]
-[Mario Party: Island Tour];[n3d];;ok;party;NDCube;[Nintendo]
-[Mario Party: Star Rush];[n3d];;ok;party;NDCube;[Nintendo]
-[Mario Party: The Top 100];[n3d];;ok;party;NDCube;[Nintendo]
-[Mario Party];[n64];[1998-12];good;party;Hudson;[Nintendo]
-[Mario Pinball Land];[gba];;ok;pinball;Fuse Games;[Nintendo]
-[Mario Power Tennis];[gcn][wii];;great;tennis;Camelot;[Nintendo]
-[Mario Sports Mix];[wii];;ok;sport;Square Enix;[Nintendo]
-[Mario Sports Superstars];[n3d];;ok;sport;Camelot;[Nintendo]
-[Mario Strikers Charged];[wii];;great;football;Next Level Games;[Nintendo]
-[Mario Strikers: Battle League];[swi];;good;football;Next Level Games;[Nintendo]
-[Mario Super Sluggers];[wii];;ok;baseball;Namco BandaiNow Production;[Nintendo]
-[Mario Superstar Baseball];[gcn];;good;baseball;NamcoNintendo SPD Now Production;[Nintendo]
-[Mario Tennis (GBC)];[gbc];;great;tennis;Camelot;[Nintendo]
-[Mario Tennis Aces];[swi];;good;tennis;Camelot;[Nintendo]
-[Mario Tennis Open];[n3d];;good;tennis;Camelot;[Nintendo]
-[Mario Tennis: Power Tour];[gba];;great;tennis;Camelot;[Nintendo]
-[Mario Tennis: Ultra Smash];[wiu];;bad;tennis;Camelot;[Nintendo]
-[Mario Tennis];[n64];[2000-07];great;tennis;Camelot;[Nintendo]
-[Mario vs. Donkey Kong 2: March of the Minis];[nds];;good;puzzle;Nintendo ST;[Nintendo]
-[Mario vs. Donkey Kong: Mini-Land Mayhem!];[nds];;good;puzzle;Nintendo ST;[Nintendo]
-[Mario vs. Donkey Kong: Tipping Stars];[wiu][n3d];;ok;puzzle;Nintendo ST;[Nintendo]
-[Mario vs. Donkey Kong];[gba];;great;puzzle;Nintendo ST;[Nintendo]
-[Mario's Picross];[gby];;good;puzzle;JupiterApe;[Nintendo]
-[Mario’s Tennis];[vb];;ok;tennis;Nintendo R&D1 Tose;[Nintendo]
-[Mega Man 2];[nes];;great;2d_platform;Capcom;[Capcom]
-[Mega Man 3];[nes];;great;2d_platform;Capcom;[Capcom]
-[Mega Man 4];[nes];;great;2d_platform;Capcom;[Capcom]
-[Mega Man 5];[nes];;great;2d_platform;Capcom;[Capcom]
-[Mega Man 6];[nes];;good;2d_platform;Capcom;[Capcom]
-[Mega Man Legends];[ps1][n64][win];[1997-18][2000-11][2001-02];ok;action_adv,action_rpg;[Capcom];[Capcom]
-[Mega Man];[nes];;great;2d_platform;Capcom;[Capcom]
-[Metroid Prime 2: Echoes];[gcn][wii];;great;action_adv;Retro Studios;[Nintendo]
-[Metroid Prime 3: Corruption];[gcn][wii];;great;action_adv;Retro Studios;[Nintendo]
-[Metroid Prime];[gcn][wii];;great;action_adv;Retro Studios;[Nintendo]
-[Metroid: Other M];[wii];;ok;action_adv;Team Ninja Nintendo SPD;[Nintendo]
-[Metroid];[nes];;ok;metroidvania;Nintendo R&D1Intelligent Systems;[Nintendo]
-[Mighty No. 9];[win][ps3][ps4][wiu][x36][xb1][mac][lin];;bad;2d_platform;ComceptInti Creates;Deep Silver
-[Mini Mario & Friends: Amiibo Challenge];[wiu][n3d];;ok;puzzle;Nintendo ST;[Nintendo]
-[Monster Hunter 3];[wii][n3d][wiu];;great;action_rpg;Capcom;[Capcom]
-[Mystery Case Files: The Malgrave Incident];[wii];;ok;puzzle;Big Fish GamesSanzaru Games;[Nintendo]
-[NES Open Tournament Golf];[nes];;ok;golf;Nintendo R&D2;[Nintendo]
-[NES Remix 2];[wiu];;good;actionarcade;Nintendo EAD;[Nintendo]
-[NES Remix];[wiu];;good;actionarcade;Nintendo EAD;[Nintendo]
-[New Super Luigi U];[wiu][swi];;good;2d_platform;Nintendo EAD;[Nintendo]
-[New Super Mario Bros. 2];[n3d];;good;2d_platform;Nintendo EAD;[Nintendo]
-[New Super Mario Bros. U];[wiu][swi];;great;2d_platform;Nintendo EAD;[Nintendo]
-[New Super Mario Bros. Wii];[wii];;great;2d_platform;Nintendo EAD;[Nintendo]
-[New Super Mario Bros.];[nds];;great;2d_platform;Nintendo EAD;[Nintendo]
-[Nintendo Land];[wiu];;great;partyadventure;Nintendo EAD;[Nintendo]
-[Okami];[ps2][wii][ps3][win][ps4][xb1][swi];;great;action_adv;Clover Studio;[Capcom]
-[Pandora's Tower ];[wii];;great;action_rpg;Ganbarion;[Nintendo]Xseed Games
-[Paper Mario: Color Splash];[wiu];;good;tb_rpgaction_adv;Intelligent Systems;[Nintendo]
-[Paper Mario: Sticker Star];[n3d];;good;tb_rpgaction_adv;Intelligent Systems;[Nintendo]
-[Paper Mario: The Origami King];[swi];;good;tb_rpgaction_adv;Intelligent Systems;[Nintendo]
-[Paper Mario: The Thousand-Year Door];[gcn];;great;tb_rpg;Intelligent Systems;[Nintendo]
-[Paper Mario];[n64];[2000-08];great;tb_rpg;Intelligent Systems;[Nintendo]
-[Perfect Dark];[n64];[2000-05];great;first_person_shooter;[Rare];[Rare]
-[Persona 2: Eternal Punishment];[ps1][psp];;;;;
-[Persona 2: Innocent Sin];[ps1][psp];;;;;
-[Persona 3 FES];[ps2];;;;;
-[Persona 3 Portable];[psp][win][swi][ps4][xb1][xsx];;;;;
-[Persona 3: Dancing in Moonlight];[ps4][psv];;;;;
-[Persona 3];[ps2];;;;;
-[Persona 4 Arena Ultimax];[ps3][x36][win][swi][ps4];;;;;
-[Persona 4 Golden];[psv][win][swi][ps4][xb1][xsx];;;;;
-[Persona 4: Dancing All Night];[ps4][psv];;;;;
-[Persona 4];[ps2];;;;;
-[Persona 5 Royal];[ps4][swi][win][xb1][xsx][ps5];;;;;
-[Persona 5 Strikers];[swi][ps4][win];;;;;
-[Persona 5: Dancing in Starlight];[ps4][psv];;;;;
-[Persona 5];[ps3][ps4];;;;;
-[Persona Q: Shadow of the Labyrinth];[n3d];;;;;
-[Persona Q2: New Cinema Labyrinth];[n3d];;;;;
-[Persona: Revelations];[ps1][win][psp];;;;;
-[Pikmin 2];[gcn][wii];;great;rt_strategypuzzle;Nintendo EAD;[Nintendo]
-[Pikmin 3];[wiu][swi];;great;rt_strategypuzzle;Nintendo EAD;[Nintendo]
-[Pikmin];[gcn][wii];;great;rt_strategypuzzle;Nintendo EAD;[Nintendo]
-[Pilotwings 64];[n64];[1996-06];great;flight_sim;[Nintendo EAD];[Nintendo]
-[Pinball];[nes][arc];;good;pinball;Nintendo R&D1;[Nintendo]
-[Pocket Monsters Stadium];[n64];[1998-08];ok;turn_based_strategy;[Nintendo EAD][HAL Laboratory];[Nintendo]
-[Pokemon Alpha Sapphire];[n3d];[2014-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Battle Revolution ];[wii];;ok;tb_strategy;Genius Sonority;[Nintendo]
-[Pokemon Black 2];[nds];[2012-06];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Black];[nds];[2010-09];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Blue];[gby];[1998-09];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Box: Ruby & Sapphire];[gcn];[2003-05];ok;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Brilliant Diamond];[swi];[2021-11];good;tb_rpg;[ILCA];[Nintendo]
-[Pokemon Colosseum];[gcn];[2003-11];good;tb_rpg;[Genius Sonority];[Nintendo]
-[Pokemon Conquest];[nds];[2012-03];great;tactical_rpg;[Tecmo Koei];[Nintendo]
-[Pokemon Crystal];[gbc];[2000-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Diamond];[nds];[2006-09];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Emerald];[gba];[2004-09];good;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon FireRed];[gba];[2004-01];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Gold];[gbc];[1999-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon HeartGold];[nds];[2009-09];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon LeafGreen];[gba];[2004-01];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Legends Arceus];[swi];[2002-01];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Let’s Go Eevee];[swi];[2018-11];good;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Let’s Go Pikachu];[swi];[2018-11];good;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Moon];[n3d];[2016-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Omega Ruby];[n3d];[2014-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Pearl];[nds];[2006-09];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Platinum];[nds];[2008-09];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Puzzle League];[n64];[2000-09];great;puzzle;[Nintendo ST];[Nintendo]
-[Pokemon Red];[gby];[1998-09];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Ruby];[gba];[2002-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Rumble U];[wiu];;bad;action_rpg;Ambrella;[Nintendo]
-[Pokemon Sapphire];[gba];[2002-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Scarlet];[swi];[2022-11];ok;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Shield];[swi];[2019-11];good;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Shining Pearl];[swi];[2021-11];good;tb_rpg;[ILCA];[Nintendo]
-[Pokemon Silver];[gbc];[1999-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Snap];[n64];[1999-03];good;rail_shooter,photography;[HAL Laboratory];[Nintendo]
-[Pokemon SoulSilver];[nds];[2009-09];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Stadium 2];[n64];[2000-12];good;turn_based_strategy;[Nintendo EAD];[Nintendo]
-[Pokemon Stadium];[n64];[1999-04];good;turn_based_strategy;[Nintendo EAD][HAL Laboratory];[Nintendo]
-[Pokemon Sun];[n3d];[2016-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Sword];[swi];[2019-11];good;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Ultra Moon];[n3d];[2017-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Ultra Sun];[n3d];[2017-11];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Violet];[swi];[2022-11];ok;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon White 2];[nds];[2012-06];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon White];[nds];[2010-09];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon X];[n3d];[2013-10];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon XD: Gale of Darkness];[gcn];[2005-08];ok;tb_rpg;[Genius Sonority];[Nintendo]
-[Pokemon Y];[n3d];[2013-10];great;tb_rpg;[Game Freak];[Nintendo]
-[Pokemon Yellow];[gby];[1998-09];great;tb_rpg;[Game Freak];[Nintendo]
-[PokePark 2: Wonders Beyond ];[wii];;ok;action_adv;Creatures Inc;[Nintendo]
-[PokePark Wii: Pikachu's Adventure ];[wii];;ok;action_adv;Creatures Inc;[Nintendo]
-[Pokken Tournament];[wiu][swi][arc];;good;fighting;Bandai Namco;[Nintendo]
-[Punch-Out!! ];[wii];;great;boxing;Next Level Games;[Nintendo]
-[Pushmo World];[wiu];;great;puzzle;Intelligent SystemsNintendo SPD;[Nintendo]
-[Puzzle & Dragons Z + Super Mario Bros. Edition];[n3d];;good;puzzle;GungHo;[Nintendo]
-[Rayman];[jag][ps1][sat][dos][gbc][gba][dsw][ios][and];[1995-09][1995-09][1995-10][1996-04][2000-03][2001-06][2009-12][2016-02][2016-03];great;2d_platform;[Ubisoft];[Ubisoft]
-[Resident Evil (Remake)];[gcn][wii][ps3][ps4][win][x36][xb1][swi];;great;surv_horror;Capcom;[Capcom]
-[Resident Evil 2];[ps1][win][n64];[1998-01][1999-02][1999-10];great;surv_horror;[Capcom];[Capcom]
-[Resident Evil 4];[gcn][ps2][win][wii][ios][ps3][x36][and][ps4][xb1][swi];;great;surv_horror;Capcom;[Capcom]
-[Resident Evil Revelations];[n3d][win][ps3][wiu][x36][swi][ps4][xb1];;great;surv_horror;Tose;[Capcom]
-[Resident Evil Zero];[gcn][wii][win][ps3][ps4][x36][xb1][swi];;great;surv_horror;Capcom;[Capcom]
-[Resident Evil: The Darkside Chronicles];[wii][ps3];;good;rail_shooter;Cavia;[Capcom]
-[Resident Evil: The Umbrella Chronicles];[wii][ps3];;good;rail_shooter;CaviaCapcom;[Capcom]
-[Rhythm Heaven Fever ];[wii];;great;rhythm;Nintendo SPD;[Nintendo]
-[Ridge Racer 64];[n64][nds];[2000-02],[2004-12];good;racing;[Nintendo ST];[Nintendo],[Namco]
-[Samba de Amigo];[arc][sdc][wii];;great;rhythm;Sonic Team;Sega
-[Shiren the Wanderer];[wii][psp];;good;action_rpgroguelike;Chunsoft;SegaAtlus
-[Silent Hill: Shattered Memories];[wii][ps2][psp];;good;surv_horror;Climax Studios;Konami
-[Sin & Punishment: Star Successor ];[wii];;great;rail_shooter;Treasure;[Nintendo]
-[Sin and Punishment];[n64];[2000-11];great;rail_shooter;[Treasure];[Nintendo]
-[Soccer];[nes];;ok;soccer;Intelligent Systems;[Nintendo]
-[Sonic & Knuckles];[gen];;great;2d_platform;Sonic Team;Sega
-[Sonic & Sega All-Stars Racing];[wii][ps3][x36][nds][win][mac][arc][ios][and];;good;racing;Sumo Digital;Sega
-[Sonic and the Black Knight];[wii];;ok;hack_slashaction_advrail_shooter;Sonic Team;Sega
-[Sonic and the Secret Rings];[wii];;bad;action_advrail_shooter;Sonic Team;Sega
-[Sonic Blast];[sgg][sms];;bad;2d_platform;Aspect Co;Sega
-[Sonic CD];[scd];;great;2d_platform;Sonic Team;Sega
-[Sonic Colors];[wii][swi][ps4][win][xb1];;good;2d_platform3d_platform;Sonic Team;Sega
-[Sonic Riders: Zero Gravity];[ps2][wii];;ok;racing;Sonic Team;Sega
-[Sonic the Hedgehog 2];[gen];;great;2d_platform;Sonic Team;Sega
-[Sonic the Hedgehog 3];[gen];;great;2d_platform;Sonic Team;Sega
-[Sonic the Hedgehog Pocket Adventure];[ngpc];;great;2d_platform;SNK;Sega
-[Sonic the Hedgehog];[gen][win][n3d][and][ios][swi];;good;2d_platform;Sonic Team;Sega
-[Sonic Unleashed HD];[x36][ps3];;ok;3d_platformbeat_up;Sonic Team;Sega
-[Sonic Unleashed];[ps2][wii];;ok;3d_platformbeat_up;Sonic Team;Sega
-[Splatoon];[wiu];;great;third_person_shooter;Nintendo EAD;[Nintendo]
-[Star Fox 64];[n64];[1997-04];great;rail_shooter;[Nintendo EAD];[Nintendo]
-[Star Fox Guard];[wiu];;good;tower_defense;Nintendo EPDPlatinumGames;[Nintendo]
-[Star Fox Zero];[wiu];;ok;rail_shootershoot_em_up;Nintendo EPDPlatinumGames;[Nintendo]
-[StarTropics 2: Zoda’s Revenge];[nes];;good;action_adv;Nintendo R&D3;[Nintendo]
-[StarTropics];[nes];;great;action_adv;Nintendo R&D3;[Nintendo]
-[Super Mario 3D All-Stars];[swi];;great;comp3d_platform;Nintendo EPD1-Up Studio;[Nintendo]
-[Super Mario 3D Land];[n3d];;great;3d_platform;Nintendo EAD;[Nintendo]
-[Super Mario 3D World (Bowser’s Fury)];[swi];;great;3d_platform;Nintendo EPD;[Nintendo]
-[Super Mario 3D World];[wiu][swi];;great;3d_platform;Nintendo EAD;[Nintendo]
-[Super Mario 64 DS];[nds];;great;3d_platform;Nintendo EAD;[Nintendo]
-[Super Mario 64];[n64];[1996-06];great;3d_platform;Nintendo EAD;[Nintendo]
-[Super Mario Advance 4: Super Mario Bros. 3];[gba];;great;2d_platform;Nintendo R&D2;[Nintendo]
-[Super Mario All-Stars ];[sfc][wii];;good;comp;Nintendo EAD;[Nintendo]
-[Super Mario Bros. 2];[nes];;great;2d_platform;Nintendo EAD;[Nintendo]
-[Super Mario Bros. 3];[nes];;great;2d_platform;Nintendo EAD;[Nintendo]
-[Super Mario Bros. 35];[swi];;good;2d_platformbattle_royale;Arika;[Nintendo]
-[Super Mario Bros. Deluxe];[gbc];;great;2d_platform;Nintendo EAD;[Nintendo]
-[Super Mario Bros.: The Lost Levels];[nes][wiivc];;good;2d_platform;Nintendo EAD;[Nintendo]
-[Super Mario Bros.];[nes];;great;2d_platform;Nintendo EAD;[Nintendo]
-[Super Mario Galaxy 2];[wii];;great;3d_platform;Nintendo EAD;[Nintendo]
-[Super Mario Galaxy];[wii];;great;3d_platform;Nintendo EAD;[Nintendo]
-[Super Mario Kart];[sfc];;great;racing;Nintendo EAD;[Nintendo]
-[Super Mario Land 2: 6 Golden Coins];[gby];;great;2d_platform;Nintendo R&D1;[Nintendo]
-[Super Mario Land];[gby];;great;2d_platform;Nintendo R&D1;[Nintendo]
-[Super Mario Maker 2];[swi];;great;2d_platformsandbox;Nintendo EAD;[Nintendo]
-[Super Mario Maker];[wiu][n3d];;great;2d_platformsandbox;Nintendo EAD;[Nintendo]
-[Super Mario Odyssey];[swi];;great;3d_platform;Nintendo EPD;[Nintendo]
-[Super Mario Party];[swi];;good;party;NDCube;[Nintendo]
-[Super Mario RPG: Legend of the Seven Stars];[sfc];;great;tb_rpg;Square;[Nintendo]
-[Super Mario Run];[and][ios];;good;2d_platform;Nintendo EPD;[Nintendo]
-[Super Mario Strikers];[gcn];;good;football;Next Level Games;[Nintendo]
-[Super Mario Sunshine];[gcn];;great;3d_platform;Nintendo EAD;[Nintendo]
-[Super Mario World 2: Yoshi’s Island];[sfc];;great;2d_platform;Nintendo EAD;[Nintendo]
-[Super Mario World];[sfc];;great;2d_platform;Nintendo EAD;[Nintendo]
-[Super Monkey Ball: Banana Blitz];[wii];;good;3d_platformparty;New Entertainment;Sega
-[Super Monkey Ball: Step & Roll];[wii];;ok;3d_platform;Sega;Sega
-[Super Paper Mario ];[wii];;great;action_rpg3d_platformer;Intelligent Systems;[Nintendo]
-[Super Princess Peach];[nds];;good;2d_platform;Tose;[Nintendo]
-[Super Smash Bros. Brawl ];[wii];;great;fighting;Sora Ltd.;[Nintendo]
-[Super Smash Bros. For Wii U];[wiu];;great;fighting;Bandai NamcoSora Ltd.;[Nintendo]
-[Super Smash Bros. Melee];[gcn];;great;fighting;HAL Laboratory;[Nintendo]
-[Super Smash Bros. Ultimate];[swi];;great;fighting;Bandai Namco Sora Ltd.;[Nintendo]
-[Super Smash Bros.];[n64];[1999-01];great;fighting;HAL Laboratory;[Nintendo]
-[Tatsunoko vs. Capcom: Ultimate All-Stars];[arc][wii];;great;fighting;Eighting;[Capcom]
-[Tennis];[nes][arc][gby];;ok;tennis;Nintendo EAD Intelligent Systems;[Nintendo]
-[Terraria];[win][ps3][ps4][n3d][mac][lin][x36][xb1][wiu][swi][ps5][xsx][psv][ios][and];;great;action_advsandbox;Re-Logic;505 Games
-[Tetris & Dr. Mario];[sfc];[1994-12];great;puzzle;[Intelligent Systems];[Nintendo]
-[Tetris 2];[nes][gby][sfc];;good;puzzle;Nintendo R&D1Tose;[Nintendo]
-[Tetris Attack];[sfc],[gby];[1995-10][1996-08];great;puzzle;[Intelligent Systems];[Nintendo]
-[Tetris DS];[nds];;great;puzzle;Nintendo SPD;[Nintendo]
-[Tetris];[nes][gby];;great;puzzle;Nintendo R&D1;[Nintendo]
-[The House of the Dead: Overkill];[wii][ps3][win][ios][and];;good;rail_shooter;Headstrong Games;Sega
-[The Legend of Zelda: Breath of the Wild];[wiu][swi];;great;action_adv;Nintendo EPD;[Nintendo]
-[The Legend of Zelda: Majora's Mask];[n64];[2000-04];great;action_adv;[Nintendo EAD];[Nintendo]
-[The Legend of Zelda: Ocarina of Time];[n64];[1998-11];great;action_adv;[Nintendo EAD];[Nintendo]
-[The Legend of Zelda: Skyward Sword];[wii];;great;action_adv;Nintendo EAD;[Nintendo]
-[The Legend of Zelda: The Wind Waker];[gcn][wiu];;great;action_adv;Nintendo EAD;[Nintendo]
-[The Legend of Zelda: Twilight Princess];[wii][gcn][wiu];;great;action_adv;Nintendo EAD;[Nintendo]
-[The Witcher 2: Assassins of Kings];[win][x36][mac][lin];[2011-05][2012-04][2012-10][2014-05];great;action_rpg;[CD Projekt Red];[CD Projekt]
-[The Witcher 3: Wild Hunt];[win][ps4][xb1][swi][ps5][xsx];[2015-05][2015-05][2015-05][2019-10][2022-12][2022-12];great;action_rpg;[CD Projekt Red];[CD Projekt]
-[The Witcher];[win][mac];[2007-10][2012-04];great;action_rpg;[CD Projekt Red];[CD Projekt]
-[The Wonderful 101];[wiu][swi][ps4][win];;great;action_advhack_slashbeat_em_up;PlatinumGames;[Nintendo]PlatinumGames
-[Tokyo Mirage Sessions ♯FE];[wiu][swi];;great;tb_rpg;Atlus;[Nintendo]
-[Virtual Boy Wario Land];[vb];;great;2d_platform;Nintendo R&D1;[Nintendo]
-[Wario Land 2];[gby][gbc];;great;2d_platform;Nintendo R&D1;[Nintendo]
-[Wario Land 3];[gbc];;great;2d_platform;Nintendo R&D1;[Nintendo]
-[Wario Land 4];[gba];;great;2d_platform;Nintendo R&D1;[Nintendo]
-[Wario Land: Shake It!];[wii];;good;2d_platform;Good-Feel;[Nintendo]
-[Wario Land: Super Mario Land 3];[gby];;great;2d_platform;Nintendo R&D1;[Nintendo]
-[Wario World];[gcn];;good;3d_platform;Treasure;[Nintendo]
-[Wario: Master of Disguise];[nds];;ok;2d_platform;Suzak;[Nintendo]
-[Wario’s Woods];[nes][sfc];;good;puzzle;TEC;[Nintendo]
-[WarioWare D.I.Y.];[nds];;great;partyrhythm;Nintendo SPDIntelligent Systems;[Nintendo]
-[WarioWare Gold];[n3d];;good;party;Nintendo SPDIntelligent Systems;[Nintendo]
-[WarioWare Inc.: Mega Microgames!];[gba][gcn];;great;party;Nintendo R&D1;[Nintendo]
-[WarioWare: Get it Together!];[swi];;good;party;Nintendo EPDIntelligent Systems;[Nintendo]
-[WarioWare: Smooth Moves];[wii];;great;partyrhythm;Intelligent SystemsNintendo SPD;[Nintendo]
-[WarioWare: Snapped!];[dsw];;ok;partyrhythm;Nintendo SPDIntelligent Systems;[Nintendo]
-[WarioWare: Touched!];[nds];;great;party;Nintendo SPDIntelligent Systems;[Nintendo]
-[WarioWare: Twisted!];[nds];;great;party;Nintendo SPDIntelligent Systems;[Nintendo]
-[Wave Race 64];[n64];[1996-09];great;racing;[Nintendo EAD];[Nintendo]
-[We Love Golf!];[wii];;good;golf;Camelot;[Capcom]
-[Wii Chess];[wii];;ok;chess;Nintendo SPD;[Nintendo]
-[Wii Fit Plus];[wii];;great;fitness;Nintendo EAD;[Nintendo]
-[Wii Fit U];[wiu];;good;fitness;Nintendo EADGanbarion;[Nintendo]
-[Wii Fit];[wii];;great;fitness;Nintendo EAD;[Nintendo]
-[Wii Music];[wii];;ok;rhythm;Nintendo EAD;[Nintendo]
-[Wii Party U];[wiu];;ok;party;NDCubeNintendo SPD;[Nintendo]
-[Wii Party];[wii];;good;party;Nintendo EAD;[Nintendo]
-[Wii Play: Motion];[wii];;ok;party;Nintendo EAD;[Nintendo]
-[Wii Play];[wii];;ok;party;Nintendo EAD;[Nintendo]
-[Wii Sports Club];[wiu];;ok;sport;Bandai NamcoNintendo EAD;[Nintendo]
-[Wii Sports Resort];[wii];;great;sport;Nintendo EAD;[Nintendo]
-[Wii Sports];[wii];;good;sport;Nintendo EAD;[Nintendo]
-[World of Goo];[wiw][win][mac][lin][ios][and][swi];[2008-10];great;puzzle;[2D Boy];[2D Boy]
-[Wrecking Crew];[nes][arc];;good;actionpuzzle;Nintendo R&D1;[Nintendo]
-[Xenoblade Chronicles 2: Torna – The Golden Country];[swi];;great;action_rpg;Monolith Soft;[Nintendo]
-[Xenoblade Chronicles 2];[swi];;great;action_rpg;Monolith Soft;[Nintendo]
-[Xenoblade Chronicles 3];[swi];;great;action_rpg;Monolith Soft;[Nintendo]
-[Xenoblade Chronicles X];[wiu];;great;action_rpg;Monolith Soft;[Nintendo]
-[Xenoblade Chronicles];[wii][nn3][swi];;great;action_rpg;Monolith Soft;[Nintendo]
-[Yoshi Touch & Go];[nds];;good;2d_platform;Nintendo EAD;[Nintendo]
-[Yoshi's Island DS];[nds];;great;2d_platform;Artoon;[Nintendo]
-[Yoshi's New Island];[n3d];;ok;2d_platform;Arzest;[Nintendo]
-[Yoshi's Safari];[sfc];;good;light_gun;Tose;[Nintendo]
-[Yoshi's Story];[n64];[1997-12];good;2d_platform;Nintendo EAD;[Nintendo]
-[Yoshi's Universal Gravitation];[gba];;ok;2d_platform;Artoon;[Nintendo]
-[Yoshi's Woolly World];[wiu][n3d];[2015-06][2017-01];good;2d_platform;[Good-Feel];[Nintendo]
-[Yoshi’s Cookie];[nes][gby][sfc];[1992-11][1992-11][1993-06];good;puzzle;[Tose],[Bullet-Proof Software];[Nintendo],[Bullet-Proof Software]
-[Yoshi];[nes][gby];;ok;puzzle;Game Freak;[Nintendo]
-[Zack & Wiki: Quest for Barbaros' Treasure];[wii];[2007-10];great;point_clickpuzzleadventure;[Capcom];[Capcom]
-[Zangeki no Reginleiv];[wii];[2010-02];good;action;[Sandlot];[Nintendo]
-[Art Academy];[nds];;;;;
-[Art Academy: Lessons for Everyone!];[n3d];;;;;
-[Balloon Kid];[gbx];;;;;
-[Battle Clash];[sfc];;;;;
-[Metal Combat: Falcon’s Revenge];[sfc];;;;;
+10-Yard Fight,01,198508
+100 Classic Books,07,
+1080 Avalanche,04,
+1080° Snowboarding,03,
+1942,01,198512
+1942,10,
+1943: The Battle of Midway,01,198810
+3D Tetris,06,
+A Boy and His Blob,05,
+A Boy and His Blob: Trouble on Blobolonia,01,198912
+Ace Attorney Investigations 2,07,
+Ace Attorney Investigations: Miles Edgeworth,07,
+ActRaiser 2,02,
+ActRaiser,02,
+Advance Wars 2: Black Hole Rising,08,
+Advance Wars,08,
+Advance Wars: Days of Ruin,07,
+Advance Wars: Dual Strike,07,
+Adventure Island 2,01,199102
+Adventure Island 3,01,199207
+Adventure Island II: Aliens in Paradise,09,
+Adventure Island,01,198609
+Adventure Island,09,
+Adventures of Lolo 2,01,199001
+Adventures of Lolo 3,01,199012
+Adventures of Lolo,01,198904
+Adventures of Lolo,09,
+Aladdin,02,
+Alleyway,09,
+Animal Crossing,04,
+Animal Crossing: City Folk,05,
+Animal Crossing: Wild World,07,
+Another Code: R – A Journey into Lost Memories,05,
+Anubis II,05,
+Apollo Justice: Ace Attorney,07,
+Arc Rise Fantasia,05,
+Art Academy,07,
+Asphalt Urban GT 2,07,
+Asphalt Urban GT,07,
+Assassin's Creed II: Discovery,07,
+Assassin's Creed: Altaïr's Chronicles,07,
+Asteroids,09,
+Asteroids,10,
+Astro Boy: Omega Factor,08,
+Auto Modellista,04,
+Avalon Code,07,
+Axelay,02,
+Azure Dreams,10,
+Babysitting Mama,05,
+Bahamt Lagoon,02,
+Balloon Fight GB,10,
+Balloon Fight,01,198501
+Balloon Kid,09,
+Band Hero,05,
+Band Hero,07,
+Banjo-Kazooie,03,
+Banjo-Kazooie: Grunty's Revenge,08,
+Banjo-Pilot,08,
+Banjo-Tooie,03,
+Barker Bill's Trick Shooting,01,199008
+Baseball,01,
+Baseball,09,
+Baten Kaitos Origins,04,
+Baten Kaitos: Eternal Wings and the Lost Ocean,04,
+Battalion Wars 2,05,
+Battalion Wars,04,
+Battle Clash,02,
+Battletoads & Double Dragon,02,
+Battletoads in Battlemaniacs,02,
+Battletoads,09,
+Beyond Good & Evil,04,
+Big Brain Academy,07,
+Big Brain Academy: Wii Degree,05,
+Billy Hatcher and the Giant Egg,04,
+Bionic Commando,01,
+Bionic Commando,09,
+Bionic Commando: Elite Forces,10,
+Bit.Trip Complete,05,
+Blast Corps,03,
+Blaster Master: Enemy Below,10,
+Blood of Bahamut,07,
+Blue Dragon Plus,07,
+Blue Dragon: Awakened Shadow,07,
+Body Harvest,03,
+Boktai 2: Solar Boy Django,08,
+Boktai: The Sun is in Your Hand ,08,
+Bomberman 2,07,
+Bomberman 64,03,
+Bomberman 64: The Second Attack,03,
+Bomberman GB,09,
+Bomberman Hero,03,
+Bomberman II,01,
+Bomberman Jetters,04,
+Bomberman Land Touch! 2,07,
+Bomberman Land Touch!,07,
+Bomberman Land,05,
+Bomberman Max 2: Blue Advance,08,
+Bomberman Max 2: Red Advance,08,
+Bomberman Quest,10,
+Bomberman Story DS,07,
+Bomberman Tournament,08,
+Bomberman,01,
+Bomberman,07,
+Bonk's Adventure,09,
+Bonk's Revenge,09,
+Bonk’s Adventure,01,
+Boom Blox Bash Party,05,
+Boom Blox,05,
+Boulder Dash EX,08,
+Brain Age 2: More Training in Minutes a Day!,07,
+Brain Age: Train Your Brain in Minutes a Day!,07,
+Breath of Fire II,02,
+Breath of Fire II,08,
+Breath of Fire,02,
+Breath of Fire,08,
+Bubble Bobble Part 2,09,
+Bubble Bobble,09,
+Bully: Scholarship Edition,05,
+Burnout 2: Point of Impact,04,
+Burnout,04,
+Call of Duty 2: Big Red One,04,
+Call of Duty 3,05,
+Call of Duty 4: Modern Warfare,07,
+Call of Duty: Black Ops,05,
+Call of Duty: Black Ops,07,
+Call of Duty: Finest Hour,04,
+Call of Duty: Modern Warfare — Reflex Edition,05,
+Call of Duty: Modern Warfare 3,05,
+Call of Duty: Modern Warfare 3: Defiance,07,
+Call of Duty: Modern Warfare: Mobilized,07,
+Call of Duty: World at War,05,
+Call of Duty: World at War,07,
+Camping Mama: Outdoor Adventures,07,
+Capcom vs. SNK 2 EO,04,
+Captain Rainbow,05,
+Carnival Games,05,
+Carnival Games,07,
+Castlevania 64,03,
+Castlevania II: Belmont's Revenge,09,
+Castlevania II: Simon’s Quest,01,
+Castlevania III: Dracula’s Curse,01,
+Castlevania Judgment,05,
+Castlevania Legends,09,
+Castlevania,01,
+Castlevania: Aria of Sorrow,08,
+Castlevania: Circle of the Moon,08,
+Castlevania: Dawn of Sorrow,07,
+Castlevania: Dracula X,02,
+Castlevania: Harmony of Dissonance,08,
+Castlevania: Legacy of Darkness,03,
+Castlevania: Order of Ecclesia,07,
+Castlevania: Portrait of Ruin,07,
+Castlevania: The Adventure,09,
+Centipede,09,
+Chibi-Robo!,04,
+Chibi-Robo!: Park Patrol,07,
+Children of Mana,07,
+Chip n Dale Rescue Rangers 2,01,
+Chip n Dale Rescue Rangers,01,
+Chrono Trigger,02,
+Chrono Trigger,07,
+ChuChu Rocket!,08,
+Classic NES Series: Bomberman,08,
+Classic NES Series: Castlevania,08,
+Classic NES Series: Donkey Kong,08,
+Classic NES Series: Dr. Mario,08,
+Classic NES Series: Excitebike,08,
+Classic NES Series: Ice Climber,08,
+Classic NES Series: Metroid,08,
+Classic NES Series: Pac-Man,08,
+Classic NES Series: Super Mario Bros.,08,
+Classic NES Series: The Legend of Zelda,08,
+Classic NES Series: Xevious,08,
+Classic NES Series: Zelda II: The Adventure of Link,08,
+Clay Fighter Sculptor's Cut,03,
+ClayFighter 2: Judgement Clay,02,
+ClayFighter 63 1/3,03,
+ClayFighter,02,
+ClayFighter: Tournament Edition,02,
+Clu Clu Land,01,
+Clubhouse Games,07,
+Columns Crown,08,
+Comix Zone,08,
+Conker's Bad Fur Day,03,
+Conker's Pocket Tales,10,
+Contact,07,
+Contra 4,07,
+Contra Advance: The Alien Wars EX,08,
+Contra Force,01,
+Contra III: The Alien Wars,02,
+Contra,01,
+Contra: The Alien Wars,09,
+Cooking Mama 2: Dinner with Friends,07,
+Cooking Mama 3: Shop & Chop,07,
+Cooking Mama,07,
+Cooking Mama: Cook Off,05,
+Cooking Mama: World Kitchen,05,
+Crafting Mama,07,
+Crash Bandicoot 2: N-Tranced,08,
+Crash Bandicoot Purple: Ripto's Rampage,08,
+Crash Bandicoot: The Huge Adventure,08,
+Crash Bandicoot: The Wrath of Cortex,04,
+Crash Boom Bang!,07,
+Crash Nitro Kart,04,
+Crash Nitro Kart,08,
+Crash of the Titans,05,
+Crash of the Titans,07,
+Crash of the Titans,08,
+Crash Tag Team Racing,04,
+Crash: Mind over Mutant,05,
+Crash: Mind Over Mutant,07,
+Crazy Taxi,04,
+Crazy Taxi: Catch a Ride,08,
+CrossworDS,07,
+Crystalis,01,
+Crystalis,10,
+Cubivore: Survival of the Fittest,04,
+Custom Robo Arena,07,
+Custom Robo GX,08,
+Custom Robo V2,03,
+Custom Robo,03,
+Custom Robo,04,
+Dance Dance Revolution: Mario Mix,04,
+De Blob 2,05,
+De Blob 2,07,
+De Blob,05,
+Dead Rising: Chop Till You Drop,05,
+Dead Space: Extraction,05,
+Deadly Creatures,05,
+DemiKids: Dark Version,08,
+DemiKids: Light Version,08,
+Demon's Crest,02,
+Densetsu no Stafy 2,08,
+Densetsu no Stafy 3,08,
+Densetsu no Stafy 4,07,
+Densetsu no Stafy,08,
+Dewy's Adventure,05,
+Diddy Kong Racing DS,07,
+Diddy Kong Racing,03,
+Dig Dug,09,
+Dig Dug: Digging Strike,07,
+Disaster: Day of Crisis,05,
+Disney's Aladdin,08,
+DK Jungle Climber,07,
+DK: King of Swing,08,
+Dobutsu no Mori,03,
+Dokapon Kingdom,05,
+Donkey Kong 3,01,
+Donkey Kong 64,03,
+Donkey Kong Barrel Blast,05,
+Donkey Kong Classics,01,
+Donkey Kong Country 2,08,
+Donkey Kong Country 2: Diddy's Kong Quest,02,
+Donkey Kong Country 3,08,
+Donkey Kong Country 3: Dixie Kong's Double Trouble,02,
+Donkey Kong Country Returns,05,
+Donkey Kong Country,02,
+Donkey Kong Country,08,
+Donkey Kong Country,10,
+Donkey Kong Country: Blockbuster World Video Game Championship II,02,
+Donkey Kong GB: Dinky Kong & Dixie Kong,10,
+Donkey Kong Jr. Math,01,
+Donkey Kong Jr.,01,
+Donkey Kong Jungle Beat,04,
+Donkey Kong Land 2,09,
+Donkey Kong Land 3,09,
+Donkey Kong Land,09,
+Donkey Kong,01,
+Donkey Kong,09,
+Donkey Konga 2,04,
+Donkey Konga 3,04,
+Donkey Konga,04,
+Doom 64,03,
+Doom II: Hell on Earth,08,
+Doom,02,
+Doom,08,
+Doshin the Giant,04,
+Double Dragon 3: The Arcade Game,09,
+Double Dragon Advance,08,
+Double Dragon II,09,
+Double Dragon II: The Revenge,01,
+Double Dragon III: The Sacred Stones,01,
+Double Dragon V: The Shadow Falls,02,
+Double Dragon,01,
+Double Dragon,09,
+Dr. Jekyll and Mr. Hyde,01,
+Dr. Mario & Puzzle League,08,
+Dr. Mario 64,03,
+Dr. Mario,01,
+Dr. Mario,09,
+Dragon Ball Z: Budokai 2,04,
+Dragon Ball Z: Budokai Tenkaichi 2,05,
+Dragon Ball Z: Budokai Tenkaichi 3,05,
+Dragon Ball Z: Budokai,04,
+Dragon Quest Heroes: Rocket Slime,07,
+Dragon Quest IV: Chapters of the Chosen,07,
+Dragon Quest IX: Sentinels of the Starry Skies,07,
+Dragon Quest Monsters: Joker 2,07,
+Dragon Quest Monsters: Joker,07,
+Dragon Quest Swords: The Masked Queen and the Tower of Mirrors,05,
+Dragon Quest V,02,
+Dragon Quest V: Hand of the Heavenly Bride,07,
+Dragon Quest VI,02,
+Dragon Quest VI: Realms of Revelation,07,
+Dragon Warrior II,01,
+Dragon Warrior III,01,
+Dragon Warrior IV,01,
+Dragon Warrior Monsters,10,
+Dragon Warrior,01,
+Drawn to Life,07,
+Drawn to Life: The Next Chapter,05,
+Drawn to Life: The Next Chapter,07,
+Drill Dozer,08,
+Duck Hunt,01,
+DuckTales 2,01,
+DuckTales 2,09,
+DuckTales,01,
+DuckTales,09,
+Duke Nukem 64,03,
+Duke Nukem Advance,08,
+Duke Nukem,10,
+Duke Nukem: Zero Hour,03,
+Dynasty Warriors Advance,08,
+Dynasty Warriors DS: Fighter's Battle,07,
+EarthBound,02,
+Earthworm Jim 2,02,
+Earthworm Jim 2,08,
+Earthworm Jim 3D,03,
+Earthworm Jim,02,
+Earthworm Jim,08,
+Elebits,05,
+Elebits: The Adventures of Kai and Zero,07,
+Elite Beat Agents,07,
+Endless Ocean,05,
+Endless Ocean: Blue World,05,
+Epic Mickey 2: The Power of Two,05,
+Epic Mickey,05,
+Eternal Darkness: Sanity's Requiem,04,
+Etrian Odyssey II: Heroes of Lagaard,07,
+Etrian Odyssey III: The Drowned City,07,
+Etrian Odyssey,07,
+Excite Truck,05,
+Excitebike 64,03,
+Excitebike,01,
+Excitebots: Trick Racing,05,
+F-1 Race,09,
+F-Zero GX,04,
+F-Zero X,03,
+F-Zero,02,
+F-Zero: Climax,08,
+F-Zero: GP Legend,08,
+F-Zero: Maximum Velocity,08,
+Far Cry Vengeance,05,
+Fatal Frame: Mask of the Lunar Eclipse,05,
+Fatal Fury 2,02,
+Fatal Fury,02,
+Faxanadu,01,
+Feel the Magic: XY/XX,07,
+Final Fantasy Adventure,09,
+Final Fantasy Crystal Chronicles: Echoes of Time,05,
+Final Fantasy Crystal Chronicles: Echoes of Time,07,
+Final Fantasy Crystal Chronicles: Ring of Fates,07,
+Final Fantasy Crystal Chronicles: The Crystal Bearers,05,
+Final Fantasy Fables: Chocobo Tales,07,
+Final Fantasy Fables: Chocobo's Dungeon,05,
+Final Fantasy I & II: Dawn of Souls,08,
+Final Fantasy III,07,
+Final Fantasy IV Advance,08,
+Final Fantasy IV,02,
+Final Fantasy IV,07,
+Final Fantasy Legend II,09,
+Final Fantasy Legend III,09,
+Final Fantasy Mystic Quest,02,
+Final Fantasy Tactics A2: Grimoire of the Rift,07,
+Final Fantasy Tactics Advance,08,
+Final Fantasy V Advance,08,
+Final Fantasy V,02,
+Final Fantasy VI Advance,08,
+Final Fantasy VI,02,
+Final Fantasy XII: Revenant Wings,07,
+Final Fantasy,01,
+Final Fantasy: Crystal Chronicles,04,
+Final Fantasy: The 4 Heroes of Light,07,
+Final Fight 2,02,
+Final Fight 3,02,
+Final Fight One,08,
+Final Fight,02,
+Fire Emblem: Geanology of the Holy War,02,
+Fire Emblem: Mystery of the Emblem,02,
+Fire Emblem: New Mystery of the Emblem,07,
+Fire Emblem: Path of Radiance,04,
+Fire Emblem: Radiant Dawn,05,
+Fire Emblem: Shadow Dragon,07,
+Fire Emblem: The Binding Blade,08,
+Fire Emblem: The Blazing Blade,08,
+Fire Emblem: The Sacred Stones,08,
+Fire Emblem: Thracia 776,02,
+Fire n Ice,01,
+FlingSmash,05,
+Fortune Street,05,
+Fossil Fighters,07,
+Fossil Fighters: Champions,07,
+Fragile Dreams: Farewell Ruins of the Moon,05,
+Freshly-Picked Tingle's Rosy Rupeeland,07,
+Frogger Advance: The Great Quest,08,
+Frogger,02,
+Frogger's Adventures: Temple of the Frog,08,
+Frogger's Journey: The Forgotten Relic,08,
+Front Mission 2089: Border of Madness,07,
+Front Mission Series: Gun Hazard,02,
+Front Mission,02,
+Front Mission,07,
+Galactic Pinball,06,
+Galaga: Demons of Death,01,
+Game & Watch Collection 2,07,
+Game & Watch Collection,07,
+Game & Watch Gallery 2,10,
+Game & Watch Gallery 3,10,
+Game & Watch Gallery 4,08,
+Game & Watch Gallery,09,
+Gardening Mama,07,
+Gargoyle's Quest: Ghosts n Goblins,09,
+Gargoyle’s Quest II: The Demon Darkness,01,
+Geist,04,
+Gex 3: Deep Cover Gecko,03,
+Gex 3: Deep Pocket Gecko,10,
+Gex 64: Enter the Gecko,03,
+Gex: Enter the Gecko,10,
+Ghost Trick: Phantom Detective,07,
+Ghosts 'n Goblins,10,
+Ghosts n Goblins,01,
+Glover,03,
+Golden Sun,08,
+Golden Sun: Dark Dawn,07,
+Golden Sun: The Lost Age,08,
+GoldenEye 007,03,
+GoldenEye 007,05,
+GoldenEye 007,07,
+Golf,01,
+Golf,06,
+Golf,09,
+Gradius Galaxies,08,
+Gradius III,02,
+Gradius,01,
+Gradius: The Interstellar Assault,09,
+Grand Theft Auto 2,10,
+Grand Theft Auto Advance,08,
+Grand Theft Auto,10,
+Grand Theft Auto: Chinatown Wars,07,
+Guilty Gear Dust Strikers,07,
+Guilty Gear X: Advance Edition,08,
+Guilty Gear XX Accent Core,05,
+Guitar Hero: On Tour,07,
+Gumshoe,01,
+Gunstar Super Heroes,08,
+Gyromite,01,
+Hamtaro: Ham-Ham Games,08,
+Hamtaro: Ham-Ham Heartbreak,08,
+Hamtaro: Ham-Hams Unite!,10,
+Hamtaro: Rainbow Rescue,08,
+Hamtaro: Tomodachi Daisakusen Dechu,10,
+Harvest Moon 2 GBC,10,
+Harvest Moon 3 GBC,10,
+Harvest Moon 64,03,
+Harvest Moon DS Cute,07,
+Harvest Moon DS,07,
+Harvest Moon DS: Grand Bazaar,07,
+Harvest Moon DS: Island of Happiness,07,
+Harvest Moon DS: Sunshine Islands,07,
+Harvest Moon DS: The Tale of Two Towns,07,
+Harvest Moon GB,09,
+Harvest Moon GBC,10,
+Harvest Moon,02,
+Harvest Moon: A Wonderful Life,04,
+Harvest Moon: Animal Parade,05,
+Harvest Moon: Another Wonderful Life,04,
+Harvest Moon: Frantic Farming,07,
+Harvest Moon: Friends of Mineral Town,08,
+Harvest Moon: Magical Melody,04,
+Harvest Moon: Magical Melody,05,
+Harvest Moon: More Friends of Mineral Town,08,
+Harvest Moon: Tree of Tranquility,05,
+Hatris,01,
+Heroes of Mana,07,
+Hexen,03,
+Hey You Pikachu,03,
+Hi Hamtaro! Little Hamsters Big Adventure,07,
+Hitman 2: Silent Assassin,04,
+Hogan’s Alley,01,
+Hotel Dusk: Room 215,07,
+Ice Climber,01,
+Ice Hockey,01,
+Ikaruga,04,
+Illusion of Gaia,02,
+Innsmouth no Yakata,06,
+Izuna 2: The Unemployed Ninja Returns,07,
+Izuna: Legend of the Unemployed Ninja,07,
+Jack Bros,06,
+Jet Force Gemini,03,
+Jet Grind Radio,08,
+Joe & Mac 2: Lost in the Tropics,02,
+Joe & Mac,01,
+Joe & Mac,02,
+Joe & Mac,09,
+Just Dance 2,05,
+Just Dance 2014,05,
+Just Dance 2015,05,
+Just Dance 2016,05,
+Just Dance 2017,05,
+Just Dance 2018,05,
+Just Dance 2019,05,
+Just Dance 2020,05,
+Just Dance 3,05,
+Just Dance 4,05,
+Just Dance,05,
+Kid Dracula,09,
+Kid Icarus,01,
+Kid Icarus: Of Myths and Monsters,09,
+Killer Instinct Gold,03,
+Killer Instinct,02,
+Killer Instinct,09,
+Killer7,04,
+Kingdom Hearts 358/2 Days,07,
+Kingdom Hearts Re:coded,07,
+Kingdom Hearts: Chain of Memories,08,
+Kirby & the Amazing Mirror,08,
+Kirby 64: The Crystal Shards,03,
+Kirby Air Ride,04,
+Kirby Mass Attack,07,
+Kirby no Kirakira Kizzu,02,
+Kirby Super Star Ultra,07,
+Kirby Super Star,02,
+Kirby Tilt 'n' Tumble,10,
+Kirby: Canvas Curse,07,
+Kirby: Nightmare in Dream Land,08,
+Kirby: Squeak Squad,07,
+Kirby's Avalanche,02,
+Kirby's Block Ball,09,
+Kirby's Dream Collection,05,
+Kirby's Dream Course,02,
+Kirby's Dream Land 2,09,
+Kirby's Dream Land 3,02,
+Kirby's Dream Land,09,
+Kirby's Epic Yarn,05,
+Kirby's Pinball Land,09,
+Kirby's Return to Dream Land,05,
+Kirby's Star Stacker,09,
+Kirby’s Adventure,01,
+Klonoa 2: Dream Champ Tournament,08,
+Klonoa Heroes: Densetsu no Star Medal,08,
+Klonoa,05,
+Klonoa: Empire of Dreams,08,
+Konami Krazy Racers,08,
+Kung Fu,01,
+Kuru Kuru Kururin,08,
+Kururin Paradise,08,
+Learn with Pokemon: Typing Adventure,07,
+Lego Batman 2: DC Super Heroes,05,
+Lego Batman: The Video Game,07,
+Lego Batman: The Videogame,05,
+Lego Harry Potter: Years 1-4,05,
+Lego Harry Potter: Years 1-4,07,
+Lego Harry Potter: Years 5-7,05,
+Lego Harry Potter: Years 5-7,07,
+Lego Indiana Jones 2: The Adventure Continues,05,
+Lego Indiana Jones 2: The Adventure Continues,07,
+Lego Indiana Jones: The Original Adventures,05,
+Lego Indiana Jones: The Original Adventures,07,
+Lego Star Wars II: The Original Trilogy,07,
+Lego Star Wars II: The Original Trilogy,08,
+Lego Star Wars III: The Clone Wars,05,
+Lego Star Wars III: The Clone Wars,07,
+Lego Star Wars: The Complete Saga,05,
+Lego Star Wars: The Complete Saga,07,
+Lego Star Wars: The Video Game,08,
+Life Force,01,
+Link's Crossbow Training,05,
+Little King's Story,05,
+Live a Live,02,
+Lost in Blue 2,07,
+Lost in Blue 3,07,
+Lost in Blue,07,
+Lost in Blue: Shipwrecked,05,
+Lufia & the Fortress of Doom,02,
+Lufia II: Rise of the Sinistrals,02,
+Lufia: Curse of the Sinistrals,07,
+Lufia: The Legend Returns,10,
+Luigi's Mansion,04,
+Luminous Arc 2,07,
+Luminous Arc 3,07,
+Luminous Arc,07,
+Lunar Knights,07,
+M&M's Adventure,05,
+M&M's Beach Party,05,
+M&M's Kart Racing,05,
+M&M's Kart Racing,07,
+Mach Rider,01,
+MadWorld,05,
+Majin Tensei II: Spiral Nemesis,02,
+Majin Tensei,02,
+Manhunt 2,05,
+Mario & Luigi: Bowser's Inside Story,07,
+Mario & Luigi: Partners in Time,07,
+Mario & Luigi: Superstar Saga,08,
+Mario & Sonic at the London 2012 Olympic Games,05,
+Mario & Sonic at the Olympic Games,05,
+Mario & Sonic at the Olympic Games,07,
+Mario & Sonic at the Olympic Winter Games,05,
+Mario & Sonic at the Olympic Winter Games,07,
+Mario & Wario,02,
+Mario Bros.,01,
+Mario Clash,06,
+Mario Golf,03,
+Mario Golf,10,
+Mario Golf: Advance Tour,08,
+Mario Golf: Toadstool Tour,04,
+Mario Hoops 3-on-3,07,
+Mario is Missing!,02,
+Mario Kart 64,03,
+Mario Kart DS,07,
+Mario Kart Wii,05,
+Mario Kart: Double Dash,04,
+Mario Kart: Super Circuit,08,
+Mario no Photopi,03,
+Mario no Super Picross,02,
+Mario Paint,02,
+Mario Party 2,03,
+Mario Party 3,03,
+Mario Party 4,04,
+Mario Party 5,04,
+Mario Party 6,04,
+Mario Party 7,04,
+Mario Party 8,05,
+Mario Party 9,05,
+Mario Party Advance,08,
+Mario Party DS,07,
+Mario Party,03,
+Mario Pinball Land,08,
+Mario Power Tennis,04,
+Mario Sports Mix,05,
+Mario Strikers Charged,05,
+Mario Super Sluggers,05,
+Mario Superstar Baseball,04,
+Mario Tennis,03,
+Mario Tennis,10,
+Mario Tennis: Power Tour,08,
+Mario vs. Donkey Kong 2: March of the Minis,07,
+Mario vs. Donkey Kong,08,
+Mario vs. Donkey Kong: Mini-Land Mayhem!,07,
+Mario's Early Years! Fun with Letters,02,
+Mario's Early Years! Fun with Numbers,02,
+Mario's Early Years! Preschool Fun,02,
+Mario's Picross,09,
+Mario's Tennis,06,
+Mario's Time Machine,02,
+Max Payne,08,
+Mega Man & Bass,08,
+Mega Man 2,01,198812
+Mega Man 3,01,199009
+Mega Man 4,01,199112
+Mega Man 5,01,199212
+Mega Man 6,01,199311
+Mega Man 64,03,
+Mega Man 7,02,
+Mega Man Anniversary Collection,04,
+Mega Man Battle Chip Challenge,08,
+Mega Man Battle Network 2,08,
+Mega Man Battle Network 3: Blue,08,
+Mega Man Battle Network 3: White,08,
+Mega Man Battle Network 4: Blue Moon,08,
+Mega Man Battle Network 4: Red Sun,08,
+Mega Man Battle Network 5: Double Team DS,07,
+Mega Man Battle Network 5: Team Colonel,08,
+Mega Man Battle Network 5: Team Protoman,08,
+Mega Man Battle Network 6: Cybeast Falzar,08,
+Mega Man Battle Network 6: Cybeast Gregar,08,
+Mega Man Battle Network,08,
+Mega Man II,09,
+Mega Man III,09,
+Mega Man IV,09,
+Mega Man Network Transmission,04,
+Mega Man Soccer,02,
+Mega Man Star Force 2: Zerker x Ninja,07,
+Mega Man Star Force 2: Zerker x Saurian,07,
+Mega Man Star Force 3: Black Ace,07,
+Mega Man Star Force 3: Red Joker,07,
+Mega Man Star Force: Dragon,07,
+Mega Man Star Force: Leo,07,
+Mega Man Star Force: Pegasus,07,
+Mega Man V,09,
+Mega Man X Collection,04,
+Mega Man X,02,
+Mega Man X: Command Mission,04,
+Mega Man X2,02,
+Mega Man X3,02,
+Mega Man Xtreme 2,10,
+Mega Man Xtreme,10,
+Mega Man Zero 2,08,
+Mega Man Zero 3,08,
+Mega Man Zero 4,08,
+Mega Man Zero Collection,07,
+Mega Man Zero,08,
+Mega Man ZX Advent,07,
+Mega Man ZX,07,
+Mega Man,01,198712
+Mega Man: Dr. Wily's Revenge,09,
+Metal Combat: Falcon's Revenge,02,
+Metal Gear Solid,10,
+Metal Gear Solid: The Twin Snakes,04,
+Metal Gear,01,
+Metal Slug 7,07,
+Metal Slug Advance,08,
+Metal Slug Anthology,05,
+Meteos,07,
+Metroid Fusion,08,
+Metroid II: Return of Samus,09,
+Metroid Prime 2: Echoes,04,
+Metroid Prime 3: Corruption,05,
+Metroid Prime Hunters,07,
+Metroid Prime Pinball,07,
+Metroid Prime,04,
+Metroid,01,
+Metroid: Other M,05,
+Metroid: Zero Mission,08,
+Mighty Final Fight,01,
+Mischief Makers,03,
+Missile Command,09,
+Mobile Golf,10,
+Mole Mania,09,
+Monster Hunter G,05,
+Monster Hunter Tri,05,
+Mortal Kombat 3,02,
+Mortal Kombat 3,09,
+Mortal Kombat 4,03,
+Mortal Kombat 4,10,
+Mortal Kombat Advance,08,
+Mortal Kombat II,02
+Mortal Kombat II,09,
+Mortal Kombat Mythologies: Sub-Zero,03,
+Mortal Kombat Trilogy,03,
+Mortal Kombat,02
+Mortal Kombat,09,
+Mortal Kombat: Armageddon,05,
+Mortal Kombat: Deadly Alliance,04,
+Mortal Kombat: Deadly Alliance,08,
+Mortal Kombat: Deception,04,
+Mother 1 + 2,08,
+Mother 3,08,
+Mr. Driller 2,08,
+Mr. Driller Drill Spirits,07,
+Mr. Driller,10,
+Ms. Pac-Man Maze Madness,03,
+Ms. Pac-Man Maze Madness,08,
+Ms. Pac-Man,02,
+Ms. Pac-Man,09,
+Ms. Pac-Man: Special Color Edition,10,
+Muramasa: The Demon Blade,05,
+Mystery Case Files: MillionHeir,07,
+Mystery Case Files: Prime Suspects,07,
+Mystery Case Files: Ravenhearst,07,
+Mystery Case Files: The Malgrave Incident,05,
+Mystery Dungeon: Shiren the Wanderer,07,
+Mystical Ninja 2 Starring Goemon,03,
+Mystical Ninja Starring Goemon,03,
+Mystical Ninja Starring Goemon,09,
+Namco Museum DS,07,
+Namco Museum,04,
+Name,Console,Date
+Nemesis,09,
+NES Open Tournament Golf,01,
+NES Play Action Football,01,
+Nester's Funky Bowling,06,
+New Play Control! Chibi-Robo!,05,
+New Play Control! Donkey Kong Jungle Beat,05,
+New Play Control! Mario Power Tennis,05,
+New Play Control! Metroid Prime 2,05,
+New Play Control! Metroid Prime,05,
+New Play Control! Pikmin 2,05,
+New Play Control! Pikmin,05,
+New Super Mario Bros. Wii,05,
+New Super Mario Bros.,07,
+Nights: Journey of Dreams,05,
+Nine Hours Nine Persons Nine Doors,07,
+Ninja Five-O,08,
+Ninja Gaiden Dragon Sword,07,
+Ninja Gaiden II: The Dark Sword of Chaos,01,
+Ninja Gaiden III: The Ancient Ship of Doom,01,
+Ninja Gaiden Shadow,09,
+Ninja Gaiden Trilogy,02,
+Ninja Gaiden,01,
+Ninjabread Man,05,
+Nintendo Campus Challenge 1992,02,
+Nintendo PowerFest '94,02,
+Nintendo Puzzle Collection,04,
+Nintendo World Cup,01,
+Nintendo World Cup,09,
+Nintendogs: Best Friends,07,
+Nintendogs: Chihuahua and Friends,07,
+Nintendogs: Dachshund and Friends,07,
+Nintendogs: Dalmatian and Friends,07,
+Nintendogs: Lab and Friends,07,
+No More Heroes 2: Desperate Struggle,05,
+No More Heroes,05,
+Odama,04,
+Oddworld Adventures,09,
+Oddworld: Munch's Oddysee,08,
+Ogre Battle 64: Person of Lordly Caliber,03,
+Ogre Battle: The March of the Black Queen,02,
+Okaeri! Chibi-Robo! Happy Richie Oosouji!,07,
+Okami,05,
+Okamiden,07,
+Onimusha Tactics,08,
+Operation C,09,
+P.N.03,04,
+Pac 'n Roll,07,
+Pac-Attack,02,
+Pac-Attack,09,
+Pac-In-Time,02,
+Pac-In-Time,09,
+Pac-Man 2: The New Adventures,02,
+Pac-Man Collection,08,
+Pac-Man Fever,04,
+Pac-Man Party,05,
+Pac-Man Pinball Advance,08,
+Pac-Man Vs.,04,
+Pac-Man World 2,04,
+Pac-Man World 2,08,
+Pac-Man World 3,04,
+Pac-Man World 3,07,
+Pac-Man World Rally,04,
+Pac-Man World,08,
+Pac-Man,01,
+Pac-Man,09,
+Pac-Man: Special Color Edition,10,
+Pac-Pix,07,
+Pandora's Tower,05,
+Panic Bomber,06,
+Paper Mario,03,
+Paper Mario: The Thousand-Year Door,04,
+Perfect Dark,03,
+Perfect Dark,10,
+Personal Trainer: Cooking,07,
+Personal Trainer: Math,07,
+Personal Trainer: Walking,07,
+Phantasy Star Collection,08,
+Phantasy Star Online Episode I & II,04,
+Phantasy Star Online Episode III: C.A.R.D. Revolution,04,
+Phantasy Star Zero,07,
+Phoenix Wright: Ace Attorney - Justice for All,07,
+Phoenix Wright: Ace Attorney - Trials and Tribulations,07,
+Phoenix Wright: Ace Attorney,07,
+Picross 2,09,
+Picross 3D,07,
+Picross DS,07,
+Picross NP Vol. 1,02,
+Picross NP Vol. 2,02,
+Picross NP Vol. 3,02,
+Picross NP Vol. 4,02,
+Picross NP Vol. 5,02,
+Picross NP Vol. 6,02,
+Picross NP Vol. 7,02,
+Picross NP Vol. 8,02,
+Pikmin 2,04,
+Pikmin,04,
+Pilotwings 64,03,
+Pilotwings,02,
+Pinball,01,
+Pitfall: The Big Adventure,05,
+Pitfall: The Lost Expedition,08,
+Pitfall: The Mayan Adventure,02,
+Pitfall: The Mayan Adventure,08,
+Plants vs. Zombies,07,
+Pocket Bomberman,10,
+Pocket Monsters Stadium,03,
+Pokémon Battle Revolution,05,
+Pokemon Black 2,07,
+Pokemon Black,07,
+Pokemon Blue,09,
+Pokémon Box: Ruby and Sapphire,04,
+Pokémon Channel,04,
+Pokémon Colosseum,04,
+Pokemon Conquest,07,
+Pokemon Crystal,10,
+Pokemon Dash,07,
+Pokemon Diamond,07,
+Pokemon Emerald,08,
+Pokemon FireRed,08,
+Pokemon Gold,10,
+Pokemon HeartGold,07,
+Pokemon LeafGreen,08,
+Pokemon Mystery Dungeon: Blue Rescue Team,07,
+Pokemon Mystery Dungeon: Explorers of Darkness,07,
+Pokemon Mystery Dungeon: Explorers of Sky,07,
+Pokemon Mystery Dungeon: Explorers of Time,07,
+Pokemon Mystery Dungeon: Red Rescue Team,08,
+Pokemon Pearl,07,
+Pokemon Pinball,10,
+Pokemon Pinball: Ruby and Sapphire,08,
+Pokemon Platinum,07,
+Pokemon Puzzle Challenge,10,
+Pokémon Puzzle League,03,
+Pokemon Ranger,07,
+Pokemon Ranger: Guardian Signs,07,
+Pokemon Ranger: Shadows of Almia,07,
+Pokemon Red,09,
+Pokemon Ruby,08,
+Pokemon Sapphire,08,
+Pokemon Silver,10,
+Pokémon Snap,03,
+Pokemon SoulSilver,07,
+Pokémon Stadium 2,03,
+Pokémon Stadium,03,
+Pokemon Trading Card Game,10,
+Pokemon Trozei,07,
+Pokemon White 2,07,
+Pokemon White,07,
+Pokémon XD: Gale of Darkness,04,
+Pokemon Yellow,09,
+PokéPark 2: Wonders Beyond,05,
+PokéPark Wii: Pikachu's Adventure,05,
+Popeye,01,
+Primal Rage,02,
+Prince of Persia,02,
+Prince of Persia,10,
+Prince of Persia: The Fallen King,07,
+Prince of Persia: The Forgotten Sands,05,
+Prince of Persia: The Forgotten Sands,07,
+Prince of Persia: The Sands of Time,04,
+Prince of Persia: The Two Thrones,04,
+Prince of Persia: Warrior Within,04,
+Pro Wrestling,01,
+Professor Layton and the Curious Village,07,
+Professor Layton and the Diabolical Box,07,
+Professor Layton and the Last Specter,07,
+Professor Layton and the Unwound Future,07,
+Punch-Out,01,
+Punch-Out!!,05,
+Puyo Pop Fever,04,
+Puyo Pop Fever,07,
+Puyo Pop Fever,08,
+Puzzle de Harvest Moon,07,
+Qix,09,
+Quake 64,03,
+Quake II,03,
+Quest 64,03,
+R-Type DX,10,
+R-Type II,09,
+R-Type III: The Third Lightning,02,
+R-Type III: The Third Lightning,08,
+R-Type,09,
+R: Racing Evolution,04,
+R.C. Pro-Am II,01,
+R.C. Pro-Am,01,
+Rabbids Go Home,05,
+Rabbids Go Home,07,
+Rad Racer II,01,
+Rad Racer,01,
+Radar Mission,09,
+Radiant Historia,07,
+Raving Rabbids: Travel in Time,05,
+Rayman 2: The Great Escape,03,
+Rayman 2: The Great Escape,10,
+Rayman 3,08,
+Rayman 3: Hoodlum Havoc,04,
+Rayman Advance,08,
+Rayman Arena,04,
+Rayman DS,07,
+Rayman Origins,05,
+Rayman Raving Rabbids 2,05,
+Rayman Raving Rabbids 2,07,
+Rayman Raving Rabbids TV Party,05,
+Rayman Raving Rabbids,05,
+Rayman Raving Rabbids,07,
+Rayman,10,
+Rayman: Hoodlum's Revenge,08,
+Red Alarm,06,
+Red Steel 2,05,
+Red Steel,05,
+Resident Evil - Code: Veronica,04,
+Resident Evil 2,03,
+Resident Evil 2,04,
+Resident Evil 3: Nemesis,04,
+Resident Evil 4,04,
+Resident Evil 4: Wii Edition,05,
+Resident Evil Archives: Resident Evil Zero,05,
+Resident Evil Archives: Resident Evil,05,
+Resident Evil Gaiden,10,
+Resident Evil Zero,04,
+Resident Evil,04,
+Resident Evil: Deadly Silence,07,
+Resident Evil: The Darkside Chronicles,05,
+Resident Evil: The Umbrella Chronicles,05,
+Retro City Rampage DX+,05,
+Return of the Ninja,10,
+Rhythm Heaven Fever,05,
+Rhythm Heaven,07,
+Rhythm Tengoku,08,
+Ridge Racer 64,03,
+Ridge Racer DS,07,
+River City Ransom EX,08,
+River City Ransom,01,
+Rocket: Robot on Wheels,03,
+Rockman & Forte,02,
+Rockman EXE 4.5: Real Operation,08,
+Rockman EXE Operate Shooting Star,07,
+Rodea the Sky Soldier,05,
+Romancing SaGa 2,02,
+Romancing SaGa 3,02,
+Romancing SaGa,02,
+Rune Factory 2: A Fantasy Harvest Moon,07,
+Rune Factory 3: A Fantasy Harvest Moon,07,
+Rune Factory Frontier,05,
+Rune Factory: A Fantasy Harvest Moon,07,
+Rune Factory: Tides of Destiny,05,
+Samba de Amigo,05,
+Scribblenauts,07,
+Secret of Evermore,02,
+Secret of Mana,02,
+Shadow the Hedgehog,04,
+Shadowrun,02,
+Shakedown: Hawaii,05,
+Shantae,10,
+Shin Megami Tensei if...,02,
+Shin Megami Tensei II,02,
+Shin Megami Tensei,02,
+Shin Megami Tensei: Devil Survivor 2,07,
+Shin Megami Tensei: Devil Survivor,07,
+Shin Megami Tensei: Strange Journey,07,
+Shiren the Wanderer,05,
+Silent Hill: Shattered Memories,05,
+SimCity DS,07,
+SimCity,02,
+Sin & Punishment: Star Successor,05,
+Sin and Punishment,03,
+Skate or Die 2: The Search for Double Trouble,01,
+Skate or Die,01,
+Skate or Die: Bad 'N Rad,09,
+Skies of Arcadia Legends,04,
+Skylanders: Spyro's Adventure,05,
+Snake’s Revenge,01,
+Sniper Elite,05,
+SNK vs. Capcom Card Fighters DS,07,
+Soccer,01,
+Solomon’s Key,01,
+Sonic & Sega All-Stars Racing,05,
+Sonic & Sega All-Stars Racing,07,
+Sonic Advance 2,08,
+Sonic Advance 3,08,
+Sonic Advance,08,
+Sonic Adventure 2: Battle,04,
+Sonic Adventure DX: Director's Cut,04,
+Sonic and the Black Knight,05,
+Sonic and the Secret Rings,05,
+Sonic Battle,08,
+Sonic Chronicles: The Dark Brotherhood,07,
+Sonic Classic Collection,07,
+Sonic Colors,05,
+Sonic Colors,07,
+Sonic Gems Collection,04,
+Sonic Heroes,04,
+Sonic Mega Collection,04,
+Sonic Pinball Party,08,
+Sonic Riders,04,
+Sonic Riders: Zero Gravity,05,
+Sonic Rush Adventure,07,
+Sonic Rush,07,
+Sonic the Hedgehog Genesis,08,
+Sonic Unleashed,05,
+SoulCalibur II,04,
+Space Invaders,02,
+Space Invaders,09,
+Space Invaders,10,
+Space Station Silicon Valley,03,
+Space Station Silicon Valley,10,
+SpongeBob SquarePants: Battle for Bikini Bottom,04,
+SpongeBob SquarePants: Battle for Bikini Bottom,08,
+Spyro 2: Season of Flame,08,
+Spyro Orange: The Cortex Conspiracy,08,
+Spyro: A Hero's Tail,04,
+Spyro: Attack of the Rhynocs,08,
+Spyro: Enter the Dragonfly,04,
+Spyro: Season of Ice,08,
+Spyro: Shadow Legacy,07,
+Stack-Up,01,
+Star Fox 64,03,
+Star Fox Adventures,04,
+Star Fox Command,07,
+Star Fox,02,
+Star Fox: Assault,04,
+Star Fox: Super Weekend,02,
+Star Wars Episode I: Battle for Naboo,03,
+Star Wars Episode I: Racer,03,
+Star Wars Episode I: Racer,10,
+Star Wars: Rogue Squadron,03,
+Star Wars: Shadows of the Empire,03,
+StarTropics II: Zoda’s Revenge,01,
+StarTropics,01,
+Street Fighter 2010: The Final Fight,01,
+Street Fighter Alpha 2,02,
+Street Fighter Alpha 3,08,
+Street Fighter Alpha: Warriors' Dreams,10,
+Street Fighter II Turbo,02,
+Street Fighter II,02,
+Street Fighter II,09,
+Stunt Race FX,02,
+Style Savvy,07,
+Suikoden Tierkreis,07,
+Super Adventure Island II,02,
+Super Adventure Island,02,
+Super Bomberman 2,02,
+Super Bomberman 3,02,
+Super Bomberman 4,02,
+Super Bomberman 5,02,
+Super Bomberman,02,
+Super Bonk,02,
+Super Breakout,10,
+Super Buster Bros.,02,
+Super C,01,
+Super Castlevania IV,02,
+Super Double Dragon,02,
+Super Ghouls 'n Ghosts,08,
+Super Ghouls n Ghosts,02,
+Super Mario 64 DS,07,
+Super Mario 64,03,
+Super Mario Advance 2,08,
+Super Mario Advance 3,08,
+Super Mario Advance 4,08,
+Super Mario Advance,08,
+Super Mario All-Stars,02,
+Super Mario All-Stars,05,
+Super Mario Bros. / Duck Hunt / World Class Track Meet,01,
+Super Mario Bros. / Duck Hunt,01,
+Super Mario Bros. 2,01,
+Super Mario Bros. 3,01,
+Super Mario Bros. Deluxe,10,
+Super Mario Bros.,01,
+Super Mario Galaxy 2,05,
+Super Mario Galaxy,05,
+Super Mario Kart,02,
+Super Mario Land 2: 6 Golden Coins,09,
+Super Mario Land,09,
+Super Mario RPG: Legend of the Seven Stars,02,
+Super Mario Strikers,04,
+Super Mario Sunshine,04,
+Super Mario World 2: Yoshi's Island,02,
+Super Mario World,02,
+Super Metroid,02,
+Super Monkey Ball 2,04,
+Super Monkey Ball Adventure,04,
+Super Monkey Ball Jr.,08,
+Super Monkey Ball,04,
+Super Monkey Ball: Banana Blitz,05,
+Super Monkey Ball: Step & Roll,05,
+Super Monkey Ball: Touch & Roll,07,
+Super Paper Mario,05,
+Super Princess Peach,07,
+Super Punch-Out!!,02,
+Super R-Type,02,
+Super R.C. Pro-Am,09,
+Super Scope 6,02,
+Super Scribblenauts,07,
+Super Smash Bros. Brawl,05,
+Super Smash Bros. Melee,04,
+Super Smash Bros.,03,
+Super Star Wars,02,
+Super Star Wars: Return of the Jedi,02,
+Super Star Wars: Return of the Jedi,09,
+Super Star Wars: The Empire Strikes Back,02,
+Super Street Fighter II Turbo Revival,08,
+Super Street Fighter II,02,
+Superman: The New Superman Adventures,03,
+Sword of Mana,08,
+Tactics Ogre: Let Us Cling Together,02,
+Tactics Ogre: The Knight of Lodis,08,
+Tales of Phantasia,08,
+Tales of Symphonia,04,
+Tales of Symphonia: Dawn of the New World,05,
+Tatsunoko vs. Capcom: Ultimate All-Stars,05,
+Teenage Mutant Ninja Turtles II: The Arcade Game,01,
+Teenage Mutant Ninja Turtles II: The Manhattan Project,01,
+Teenage Mutant Ninja Turtles IV: Turtles in Time,02,
+Teenage Mutant Ninja Turtles,01,
+Tekken Advance,08,
+Teleroboxer,06,
+Tenchu: Shadow Assassins,05,
+Tennis,01,
+Tennis,09,
+Terranigma,02,
+Tetris & Dr. Mario,02,
+Tetris 2,01,
+Tetris 2,02,
+Tetris 2,09,
+Tetris Attack,02,
+Tetris Attack,09,
+Tetris DS,07,
+Tetris DX,10,
+Tetris,01,
+Tetris,09,
+Tetrisphere,03,
+The Final Fantasy Legend,09,
+The House of the Dead: Overkill,05,
+The King of Fighters EX: Neo Blood,08,
+The King of Fighters EX2: Howling Blood,08,
+The Last Story,05,
+The Legend of Kage 2,07,
+The Legend of Spyro: A New Beginning,04,
+The Legend of Spyro: A New Beginning,07,
+The Legend of Spyro: A New Beginning,08,
+The Legend of Spyro: Dawn of the Dragon,05,
+The Legend of Spyro: Dawn of the Dragon,07,
+The Legend of Spyro: The Eternal Night,05,
+The Legend of Spyro: The Eternal Night,07,
+The Legend of Spyro: The Eternal Night,08,
+The Legend of the Mystical Ninja,02,
+The Legend of Zelda,01,
+The Legend of Zelda: A Link to the Past and Four Swords,08,
+The Legend of Zelda: A Link to the Past,02,
+The Legend of Zelda: Collector's Edition,04,
+The Legend of Zelda: Four Swords Adventures,04,
+The Legend of Zelda: Link's Awakening DX,10,
+The Legend of Zelda: Link's Awakening,09,
+The Legend of Zelda: Majora's Mask,03,
+The Legend of Zelda: Ocarina of Time / Master Quest,04,
+The Legend of Zelda: Ocarina of Time,03,
+The Legend of Zelda: Oracle of Ages,10,
+The Legend of Zelda: Oracle of Seasons,10,
+The Legend of Zelda: Phantom Hourglass,07,
+The Legend of Zelda: Skyward Sword,05,
+The Legend of Zelda: Spirit Tracks,07,
+The Legend of Zelda: The Minish Cap,08,
+The Legend of Zelda: The Wind Waker,04,
+The Legend of Zelda: Twilight Princess,04,
+The Legend of Zelda: Twilight Princess,05,
+The New Tetris,03,
+The Revenge of Shinobi,08,
+The Simpsons: Hit & Run,04,
+The Sims 2,04,
+The Sims 2: Pets,04,
+The Sims 2: Pets,07,
+The Sims 3,07,
+The Sims Bustin' Out,04,
+The Sims,04,
+The World Ends With You,07,
+TimeSplitters 2,04,
+Tingle's Balloon Fight DS,07,
+Toki Tori,10,
+Tomato Adventure,08,
+Tomb Raider,10,
+Tomb Raider: Anniversary,05,
+Tomb Raider: Curse of the Sword,10,
+Tomb Raider: Legend,04,
+Tomb Raider: Legend,07,
+Tomb Raider: Underworld,05,
+Tomb Raider: Underworld,07,
+Tomodachi Collection,07,
+Tony Hawk's American Sk8land,08,
+Tony Hawk's American Wasteland,04,
+Tony Hawk's Downhill Jam,08,
+Tony Hawk's Pro Skater 2,03,
+Tony Hawk's Pro Skater 2,08,
+Tony Hawk's Pro Skater 2,10,
+Tony Hawk's Pro Skater 3,03,
+Tony Hawk's Pro Skater 3,04,
+Tony Hawk's Pro Skater 3,08,
+Tony Hawk's Pro Skater 3,10,
+Tony Hawk's Pro Skater 4,04,
+Tony Hawk's Pro Skater 4,08,
+Tony Hawk's Pro Skater,03,
+Tony Hawk's Pro Skater,10,
+Tony Hawk's Underground 2,04,
+Tony Hawk's Underground 2,08,
+Tony Hawk's Underground,04,
+Tony Hawk's Underground,08,
+Top Gun,01,
+Top Gun: Guts and Glory,09,
+Top Gun: The Second Mission,01,
+Touch Detective 2 1/2,07,
+Touch Detective,07,
+Trace Memory,07,
+TrackMania DS,07,
+Trauma Center: New Blood,05,
+Trauma Center: Second Opinion,05,
+Trauma Center: Under the Knife 2,07,
+Trauma Center: Under the Knife,07,
+Trauma Team,05,
+Trials of Mana,02,
+True Swing Golf,07,
+Turok 2: Seeds of Evil,03,
+Turok 2: Seeds of Evil,10,
+Turok 3: Shadow of Oblivion,10,
+Turok 3: Shadows of Oblivion,03,
+Turok: Battle of the Bionosaurs,09,
+Turok: Dinosaur Hunter,03,
+Turok: Evolution,04,
+Turok: Evolution,08,
+Turok: Rage Wars,03,
+Turok: Rage Wars,10,
+Ultimate Mortal Kombat 3,02,
+Ultimate Mortal Kombat,07,
+Uniracers,02,
+Urban Champion,01,
+Valkyrie Profile: Covenant of the Plume,07,
+Vertical Force,06,
+Viewtiful Joe 2,04,
+Viewtiful Joe,04,
+Viewtiful Joe: Double Trouble!,07,
+Viewtiful Joe: Red Hot Rumble,04,
+Virtual Boy Wario Land,06,
+Volleyball,01,
+Wario Blast: Featuring Bomberman!,09,
+Wario Land 3,10,
+Wario Land 4,08,
+Wario Land II,09,
+Wario Land II,10,
+Wario Land: Shake It!,05,
+Wario Land: Super Mario Land 3,09,
+Wario World,04,
+Wario: Master of Disguise,07,
+Wario's Woods,02,
+Wario’s Woods,01,
+WarioWare D.I.Y.,07,
+WarioWare Inc: Mega Party Games,04,
+WarioWare: Mega Microgames,08,
+WarioWare: Smooth Moves,05,
+WarioWare: Touched!,07,
+WarioWare: Twisted!,08,
+Wave Race 64,03,
+Wave Race,09,
+Wave Race: Blue Storm,04,
+We Love Golf!,05,
+Wii Chess,05,
+Wii Fit Plus,05,
+Wii Fit,05,
+Wii Music,05,
+Wii Party,05,
+Wii Play,05,
+Wii Play: Motion,05,
+Wii Sports Resort,05,
+Wii Sports,05,
+Wild Gunman,01,
+WinBack: Covert Operations,03,
+Wing Island,05,
+Wolfenstein 3D,02,
+Wolfenstein 3D,08,
+World Class Track Meet,01,
+Worms 3D,04,
+Wrecking Crew '98,02,
+Wrecking Crew,01,
+Xenoblade Chronicles,05,
+Xevious,01,
+Yggdra Union: We'll Never Fight Alone,08,
+Yoshi Topsy-Turvy,08,
+Yoshi Touch & Go,07,
+Yoshi,01,
+Yoshi,09,
+Yoshi's Cookie,02,
+Yoshi's Cookie,09,
+Yoshi's Island DS,07,
+Yoshi's Safari,02,
+Yoshi's Story,03,
+Yoshi's Cookie,01,
+Ys III: Wanderers from Ys,02,
+Ys IV: Mask of the Sun,02,
+Ys Strategy,07,
+Ys V: Kefin The Lost City of Sand,02,
+Zack & Wiki: Quest for Barbaros' Treasure,05,
+Zangeki no Reginleiv,05,
+Zelda II: The Adventure of Link,01,
