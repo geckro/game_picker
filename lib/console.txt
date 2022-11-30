@@ -1,0 +1,10 @@
+01 = NES
+02 = SNES
+03 = N64
+04 = GCN
+05 = WII
+06 = VB
+07 = DS
+08 = GBA
+09 = GB
+10 = GBC
