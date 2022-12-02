@@ -36,5 +36,26 @@ list             =   list entries in custom.csv
 """
 yes = ['yes', 'y', 'yeah', 'ye', 'yea']
 no = ['no', 'n', 'nah']
-
+console_dictionary = {
+        "nes":"01",
+        "sfc":"02",
+        "n64":"03",
+        "gcn":"04",
+        "wii":"05",
+        "vby":"06",
+        "nds":"07",
+        "gba":"08",
+        "gby":"09",
+        "gbc":"10",
+        "3ds":"11",
+        "ps1":"12",
+        "ps2":"13",
+        "ps3":"14",
+        "ps4":"15",
+        "ps5":"16",
+        "swi":"17",
+        "wiu":"18",
+        "psp":"19",
+        "psv":"20"
+    }
 
