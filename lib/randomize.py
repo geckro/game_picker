@@ -5,7 +5,7 @@ class random_line:
         for filesize, line in enumerate(temp):
                 pass
     lines = filesize + 1
-    print("INFO: Lines:",lines)
+    #print("INFO: Lines:",lines)
     temp.close()
 class random_console:
     from sys import argv
@@ -55,10 +55,15 @@ def random_all():
                         date = row[2]
                     else:
                         date = "NO DATE"
+                    if row[3] != "":
+                        series = row[3]
+                    else:
+                        series = "NULL"   
                     break
         print("Game Title     :       ",game)
         print("Console        :       ",random_console.console)
         print("Date           :       ",date)
+        print("Series         :       ",series)
 def random_sys():
     class random_sys:
         # Logging
@@ -88,4 +93,16 @@ def random_sys():
                     whileStop = 1
                     n = row[0]
                     break
-        print("Your game is:",n)
+        if row[2] != "":
+            date1 = str(row[2])[:-2]
+            date2 = str(row[2])[-2:]
+            date = date1+"-"+date2
+        else:
+            date = "NULL"
+        if row[3] != "":
+            series = row[3]
+        else:
+            series = "NULL"    
+        print("Game Title     :       ",n)
+        print("Series         :       ",series)
+        print("Date           :       ",date)
