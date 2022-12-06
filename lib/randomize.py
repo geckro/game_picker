@@ -1,6 +1,6 @@
 
 class random_line:
-    with open("./sources/games.csv", "r") as temp:
+    with open("./sources/games.csv", "r", encoding="utf8") as temp:
     # Count amount of lines in the file
         for filesize, line in enumerate(temp):
                 pass
@@ -33,13 +33,13 @@ def random_all():
         whileStop = 0
         while whileStop != 1:
 
-            with open("./sources/games.csv", "r") as temp2:
+            with open("./sources/games.csv", "r", encoding="UTF8") as temp2:
                 # Prints a random number from the number set in the variable lines
                 from random import randrange
                 randomLine = randrange(random_line.lines)
             temp2.close()
 
-            with open("./sources/games.csv", "r") as games_csv:
+            with open("./sources/games.csv", "r", encoding="UTF8") as games_csv:
                 read_csv = reader(games_csv)
                 for i in range(randomLine):
                     next(read_csv)
@@ -73,14 +73,14 @@ def random_sys():
         log()
         whileStop = 0
         while whileStop != 1:
-            with open("./sources/games.csv", "r") as temp2:
+            with open("./sources/games.csv", "r", encoding="utf8") as temp2:
                 # Prints a random number from the number set in the variable lines
                 randomLine = randrange(random_line.lines)
             temp2.close()
 
             # Interacting with ./sources/games.csv
 
-            with open("./sources/games.csv", "r") as games_csv:
+            with open("./sources/games.csv", "r", encoding="utf8") as games_csv:
                 read_csv = reader(games_csv)
                 for i in range(randomLine):
                     next(read_csv)
