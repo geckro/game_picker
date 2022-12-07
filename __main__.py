@@ -1,25 +1,33 @@
 from sys import argv
 def main():
+        #TODO option menu should be moved into its own python file and be a lot smarter.
         option_menu = ("""OPTIONS
                        
-╔ RANDOMIZE - randomizes a game 
-╠═══ all - outputs a random game from any system
-╚═══ system - outputs a random game from the specified system
-     ╚═══ console - the console you want to randomize
-╔ LIST - lists a game
-╠═══ all - lists all the games
-╠═══ system - lists all the games from a specific system
-║    ╚═══ console - the console you want to list EXAMPLE: wii
-╠═══ date - lists all the games from a specific date
-     ╚═══ date - the date you want. EXAMPLE: 200011 (month 11 / year 2000)
+╔ 1 
+╠═══  RANDOMIZE
+╠═══  LIST 
 
+╔ 2 
+╠═══  all
+╠═══  system 
+╠═══  date
+
+╔ 3 
+╠═══  system - console
+╠═══  sort
+╠═══  
+
+╔ 4 
+╠═══  system - console - sort
 """)
         if argv[1].lower() == "--help" or argv[1].lower() == "help":
             print(option_menu)
             exit()
         if argv[2].lower() == "--help" or argv[2].lower() == "help":
             print(option_menu)
-            exit()    
+            exit()
+            
+        # TODO: Move these variables to var_storage.py
         opt1_list = ["randomize", "random", "list"]
         opt2_list = ["all", "everything", "console", "system", "date"]
         random = ["random", "randomize"]
@@ -27,6 +35,8 @@ def main():
         all = ["all", "everything"]
         console = ["console", "system"]
         date = ["date"]
+        sort = ["sort"]
+        
         argv[1].lower()
         argv[2].lower()
         if argv[1] in opt1_list and argv[2] in opt2_list:
