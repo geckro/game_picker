@@ -1,14 +1,12 @@
-import logging
-
 from InquirerPy import inquirer
 from InquirerPy.base import Choice
 from InquirerPy.separator import Separator
 from src.randomize_games import randomize_games
 from src.list_games import list_games
+from src.config import configure_settings
+from src.logging_config import *
 
 def main() -> None:
-    
-    logging.basicConfig(level=logging.INFO)
 
     # Asks the user for an action and then saves it in selected_options_1
     selected_options_1 = inquirer.select(
@@ -16,16 +14,20 @@ def main() -> None:
         choices=[
             "Randomize",
             "List",
-            Separator(),
+            Separator(), 
+            "Config",
             Choice(value=None, name="Exit"),
         ],
         default=1,
     ).execute()
 
     # Log the selected option for the first select inquiry.
-    logging.info(f'Selected Options 1: |{selected_options_1}|')
+    info_logger.info(f'Selected Options 1: |{selected_options_1}|')
 
     if selected_options_1:
+
+        if "Config" in selected_options_1:
+            configure_settings()
 
         # This is a dictionary that maps each action to its corresponding options
         options = {
@@ -53,8 +55,8 @@ def main() -> None:
         ).execute()
 
         # Log the selected option for the first and second select inquiry.
-        logging.info(f'Selected Options 1 (Again): |{selected_options_1}|')
-        logging.info(f'Selected Options 2: |{selected_options_2}|')
+        info_logger.info(f'Selected Options 1 (Again): |{selected_options_1}|')
+        info_logger.info(f'Selected Options 2: |{selected_options_2}|')
 
         # Define a dictionary that maps each action to its corresponding function
         actions = {
@@ -72,7 +74,7 @@ def main() -> None:
             if execute_code:
                 
                 # Log execute_code
-                logging.info(f'What code are you executing?: |{execute_code}|')
+                info_logger.info(f'What code are you executing?: |{execute_code}|')
                 
                 # Call the function
                 execute_code(selected_options_2)

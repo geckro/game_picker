@@ -1,11 +1,10 @@
-import logging
 import os
+import configparser
 
 from datetime import datetime
 from csv import reader
 from InquirerPy import inquirer
-from InquirerPy.base import Choice
-from InquirerPy.separator import Separator
+from src.logging_config import *
 
 filename = os.path.basename(__file__)
 
@@ -40,7 +39,7 @@ def list_developer():
 
     developer = input("Enter developer: ")
 
-    logging.info(f"Developer: |{developer}|")
+    info_logger.info(f"Developer: |{developer}|")
 
     # List all entries of specified developer in games.csv
     with open("src/games.csv", "r", encoding="UTF8") as games_csv:
@@ -122,7 +121,7 @@ def list_console():
     ).execute()
     
     # Log the selected option for the first select inquiry.
-    logging.info(f'Selected Systems: |{system_checkbox}|')
+    info_logger.info(f'Selected Systems: |{system_checkbox}|')
     
     # with open("src/games.csv", "r", encoding="UTF8") as games_csv:
     #     read_csv = reader(games_csv)
@@ -169,59 +168,119 @@ def list_date():
 
     date = input("Enter date: ")
 
-    logging.info(f"Date 1: |{date}|")
+    info_logger.info(f"Date 1: |{date}|")
     for char in "/\\, .-":
         date = date.replace(char, "")
-    logging.info(f"Date 1 (Replaced): |{date}|")
+    info_logger.info(f"Date 1 (Replaced): |{date}|")
 
     while not is_valid_date(date):
         print("Invalid date format. Please try again.")
 
         date = input("Enter date: ")
 
-        logging.info(f"Date 2: |{date}|")
+        info_logger.info(f"Date 2: |{date}|")
         for char in "/\\, .-":
             date = date.replace(char, "")
-        logging.info(f"Date 2 (Replaced): |{date}|")
+        info_logger.info(f"Date 2 (Replaced): |{date}|")
 
-    logging.info(f"Length of Date: |{len(date)}|")
+    info_logger.info(f"Length of Date: |{len(date)}|")
 
     # List all entries of specified release date in games.csv
     with open("src/games.csv", "r", encoding="UTF8") as games_csv:
         read_csv = reader(games_csv)
+        max_title_length = max(len(column[0]) for column in read_csv)
+        games_csv.seek(0)
+
         length_dict = {4:4, 6:6, 8:8}
         length = len(date)
         if length in length_dict:
-            logging.info(f"Chose {length} length")
-            for column in read_csv:
-                # Extract the year, month, and day from column[2]
-                year = column[2][:4]
-                month = column[2][4:6]
-                day = column[2][6:8]
+            info_logger.info(f"Chose {length} length")
 
-                # Create a formatted string for the date with hyphens
-                date_str = f"{year}-{month}-{day}"
+            config = configparser.ConfigParser()
+            config.read('config/config.ini')
+            title_value = config.getboolean('sorting', 'sort_title')
+            date_value = config.getboolean('sorting', 'sort_date')
 
-                # Set the color codes for the console output
-                bold = "\033[1m"
-                red = "\033[31m"
-                green = "\033[32m"
-                reset = "\033[0m"
+            # Set the color codes for the console output
+            bold = "\033[1m"
+            red = "\033[31m"
+            green = "\033[32m"
+            orange = "\x1b[38;2;255;165;0m"
+            reset = "\033[0m"
 
-                # Print the formatted output
-                if date in column[2][:length_dict[length]]:
+            def format_date(date_str):
+                year = date_str[:4]
+                month = date_str[4:6]
+                day = date_str[6:8]
+                return f"{year}-{month}-{day}"
 
-                    game_title = f"{bold}{column[0]}{reset}"
-                    console_name = f"{red}{column[1]}{reset}"
+            #
+            # SORT BY TITLE
+            #
+
+            if title_value == True:
+                info_logger.info(f"Maximum Length of Title: {max_title_length}")
+                print("-"*100)
+                print("Title, System, Release Date, Version")
+                print("-"*100)
+                for column in read_csv:
+                    
+                    date_str = format_date(column[2])
+
+                    # Print the formatted output
+                    if date in column[2][:length_dict[length]]:
+                        game_title = f"{bold}{column[0]}{reset}"
+                        console_name = f"{red}{column[1]}{reset}"
+                        date_str = f"{green}{date_str}{reset}"
+                        version = f" {orange}{column[4].title()}{reset}" if column[4] else ""
+
+                        print("{:<{width}}{:<20}{:<15}{}".format(game_title, console_name, date_str, version, width=max_title_length))
+                print("")
+            #
+            # SORT BY DATE
+            #
+
+            # TODO: THERE IS NO COLOR OUTPUT IN THIS
+            # TODO: MAKE SIMILIAR TO SORT BY TITLE
+
+            elif date_value == True:
+
+                # Create a temporary empty list to store the following entries
+                entries = []
+
+                # Loop through each row in the CSV file
+                for row in read_csv:
+                    # Extract the date from the row
+                    row_date_str = row[2]
+
+                    # If the row's date matches the input date
+                    if date in row_date_str:
+                        date_str = format_date(row[2])
+
+                        # Store the entry in the list
+                        entries.append((date_str, row[0], row[1], row[4]))
+
+                # Sort the entries by date
+                entries.sort()
+
+                # Print the sorted entries
+                for entry in entries:
+                    game_title = f"{bold}{row[0]}{reset}"
+                    console_name = f"{red}{row[1]}{reset}" 
                     date_str = f"{green}{date_str}{reset}"
+                    version = f"{orange}{row[4]}{reset}" if row[4] else ""
+                    date_str, game_title, console_name, version = entry
+                    
 
-                    print(f"{game_title}, {console_name}, {date_str}")
-            print("")
+                    print("{:<{width}}{:<20}{:<15}{}".format(game_title, console_name, date_str, version, width=max_title_length))
+
+                # Print a blank line after the output
+                print("")
 
 def list_games(selected_options_2):
 
-    logging.info(f"File: |{filename}|")
-    logging.info(f"Selected Options 2: |{selected_options_2}|")
+    info_logger.info(f"File: |{filename}|")
+    info_logger.info(f"Selected Options 2: |{selected_options_2}|")
 
     options = {
         "List Everything": list_everything,
@@ -235,5 +294,5 @@ def list_games(selected_options_2):
     if execute_list is None:
         print("Error!")
     else:
-        logging.info(f"Selected Option for List: |{execute_list}|")
+        info_logger.info(f"Selected Option for List: |{execute_list}|")
         execute_list()
