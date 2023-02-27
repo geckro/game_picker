@@ -1,3 +1,61 @@
+import os
+import random
+
+from src.logging_config import *
+
+filename = os.path.basename(__file__)
+
+def randomize_everything():
+    with open("src/games.csv", "r", encoding="UTF8") as file:
+        lines = file.readlines()
+    random_line = random.choice(lines)
+    column = random_line.split(",")
+
+    bold = "\033[1m"
+    red = "\033[31m"
+    green = "\033[32m"
+    orange = "\x1b[38;2;255;165;0m"
+    reset = "\033[0m"
+
+    game_title = f"{bold}{column[0]}{reset}"
+    system = f"{red}{column[1]}{reset}" if column[1] else "NULL"
+    date = f"{red}{column[2]}{reset}" if column[2] else "NULL"
+    series = f"{red}{column[3]}{reset}" if column[3] else "NULL"
+    version = f" {orange}{column[4]}{reset}" if column[4] else "NULL"
+    developer = f" {orange}{column[7]}{reset}" if column[7] else "NULL"
+    publisher = f" {orange}{column[8]}{reset}" if column[8] else "NULL"
+    genre = f" {orange}{column[9]}{reset}" if column[9] else "NULL"
+    print("-"*100)
+    print("Title, System, Release Date, Series, Version, Developer, Publisher, Genre")
+    print("-"*100)
+    print(game_title, system, date, series, version, developer, publisher, genre)
+
+def randomize_console():
+    print("na")
+def randomize_date():
+    print("na")
+def randomize_developer():
+    print("na")
+
+def randomize_games(selected_options_2):
+
+    info_logger.info(f"File: |{filename}|")
+    info_logger.info(f"Selected Options 2: |{selected_options_2}|")
+
+    options = {
+        "Randomize Everything": randomize_everything,
+        "Randomize Console": randomize_console,
+        "Randomize Date": randomize_date,
+        "Randomize Developer": randomize_developer,
+    }
+
+    execute_list = options.get(selected_options_2, None)
+
+    if execute_list is None:
+        print("Error!")
+    else:
+        info_logger.info(f"Selected Option for Randomize: |{execute_list}|")
+        execute_list()
 
 # class random_line:
 #     with open("./sources/games.csv", "r", encoding="utf8") as temp:
@@ -106,5 +164,3 @@
 #         print("Game Title     :       ",n)
 #         print("Series         :       ",series)
 #         print("Date           :       ",date)
-def randomize_games():
-    print("test")
