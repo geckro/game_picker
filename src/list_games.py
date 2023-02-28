@@ -17,6 +17,73 @@ green = "\033[32m"
 reset = "\033[0m"
 orange = "\x1b[38;2;255;165;0m"
 
+# List of systems
+def systems(_):
+    return [
+        "Amazon - Luna",
+        "Arcade - Arcades",
+        "Apple - iOS",
+        "Apple - MacOS / OSX",
+        "Atari - 2600",
+        "Atari - 5200",
+        "Atari - 7800",
+        "Atari - Lynx",
+        "Atari - Jaguar",
+        "Bandai - WonderSwan",
+        "Coleco - ColecoVision",
+        "Commodore - 64",
+        "Google - Android",
+        "Google - Stadia",
+        "Linux - Linux (Various)",
+        "Mattel - IntelliVision",
+        "Microsoft - Windows",
+        "Microsoft - Xbox",
+        "Microsoft - Xbox 360",
+        "Microsoft - Xbox One",
+        "Microsoft - Xbox Series X/S",
+        "Microsoft - Xbox Live Arcade",
+        "NEC - TurboGrafx-16",
+        "NEC - SuperGrafx",
+        "Nintendo - 3DS",
+        "Nintendo - DS",
+        "Nintendo - DSiWare",
+        "Nintendo - Game Boy",
+        "Nintendo - Game Boy Color",
+        "Nintendo - Game Boy Advance",
+        "Nintendo - GameCube"
+        "Nintendo - NES / Famicom",
+        "Nintendo - Nintendo 64",
+        "Nintendo - Super Nintendo",
+        "Nintendo - Switch",
+        "Nintendo - Virtual Boy",
+        "Nintendo - Wii",
+        "Nintendo - WiiWare",
+        "Nintendo - Wii U",
+        "Philips - CD-i",
+        "Sega - 32X",
+        "Sega - Dreamcast",
+        "Sega - Genesis / Mega Drive",
+        "Sega - Master System",
+        "Sega - Sega CD",
+        "Sega - Saturn",
+        "Sony - PlayStation 1",
+        "Sony - PlayStation 2",
+        "Sony - PlayStation 3",
+        "Sony - PlayStation 4",
+        "Sony - PlayStation 5",
+        "Sony - PlayStation Network",
+        "Sony - PlayStation Portable",
+        "Sony - PlayStation Vita",
+    ]
+
+def open_csv_file(file_path):
+    data = []
+    with open(file_path, "r", encoding=u8) as csv_file:
+        csv_reader = reader(csv_file)
+        for row in csv_reader:
+            data.append(row)
+    return data
+
 # Extracts date from column 2 of csv document
 def date_extraction(date_str):
     # first 4 characters
@@ -41,32 +108,30 @@ def print_output(csv_column, date):
     return f"{game_title}, {console_name}, {date_str}"
 
 def dev_check(dev):
+    # TODO: is there a faster way instead of using a list variable?
     developers = []
-    with open("src/games.csv", "r", encoding="UTF8") as games_csv:
-        read_csv = reader(games_csv)
-        for column in read_csv:
-            if column[7] not in developers:
-                developers.append(column[7])
-        developers.sort()
-        # Reset to beginning of file.
-        games_csv.seek(0)
-        if dev in developers:
-            return True
-        else:
-            return False
+    read_csv = open_csv_file(csv)
+    for column in read_csv:
+        if column[7] not in developers:
+            developers.append(column[7])
+    developers.sort()
+    if dev in developers:
+        return True
+    else:
+        return False
 
 def list_everything():
     # opens games.csv as var games_csv
-    with open(csv, "r", encoding=u8) as games_csv:
-        read_csv = reader(games_csv)
-        for column in read_csv:
-            # Extract the date and if date includes "-" strip it out
-            date_str = date_extraction(column[2])
-            # Print output
-            output = print_output(column, date_str)
-            print(output)
-        # For proper formatting
-        print()
+    read_csv = open_csv_file(csv)
+
+    for column in read_csv:
+        # Extract the date and if date includes "-" strip it out
+        date_str = date_extraction(column[2])
+        # Print output
+        output = print_output(column, date_str)
+        print(output)
+    # For proper formatting
+    print()
 
 def list_developer():
     # Makes user input a developer and checks to see if that user is in the csv developer column. If developer not in column, it asks again.
@@ -80,58 +145,18 @@ def list_developer():
             print(f"{developer} does not exist!")
     info_logger.info(f"Developer: |{developer}|")
     # List all entries of specified developer in games.csv
-    with open(csv, "r", encoding=u8) as games_csv:
-        read_csv = reader(games_csv)
-        print(f"\nGames developed by {developer}:\n")
-        for column in read_csv:
-            date_str = date_extraction(column[2])
-            # Print the formatted output
-            if developer.lower() in column[7].lower():
-                output = print_output(column, date_str)
-                print(output)
-        print()
+    read_csv = open_csv_file(csv)
+    print(f"\nGames developed by {developer}:\n")
+    for column in read_csv:
+        date_str = date_extraction(column[2])
+        # Print the formatted output
+        if developer.lower() in column[7].lower():
+            output = print_output(column, date_str)
+            print(output)
+    print()
 
 # List all entries of chosen console in games.csv
 def list_console():
-    def systems(_):
-        return [
-            "Microsoft - Windows",
-            "Microsoft - Xbox",
-            "Microsoft - Xbox 360",
-            "Microsoft - Xbox One",
-            "Microsoft - Xbox Series X/S",
-            "Microsoft - Xbox Live Arcade",
-            "Nintendo - 3DS",
-            "Nintendo - DS",
-            "Nintendo - DSiWare",
-            "Nintendo - Game Boy",
-            "Nintendo - Game Boy Color",
-            "Nintendo - Game Boy Advance",
-            "Nintendo - GameCube"
-            "Nintendo - NES / Famicom",
-            "Nintendo - Nintendo 64",
-            "Nintendo - Super Nintendo",
-            "Nintendo - Switch",
-            "Nintendo - Virtual Boy",
-            "Nintendo - Wii",
-            "Nintendo - WiiWare",
-            "Nintendo - Wii U",
-            "Philips - CD-i",
-            "Sega - 32X",
-            "Sega - Dreamcast",
-            "Sega - Genesis / Mega Drive",
-            "Sega - Master System",
-            "Sega - Sega CD",
-            "Sega - Saturn",
-            "Sony - PlayStation 1",
-            "Sony - PlayStation 2",
-            "Sony - PlayStation 3",
-            "Sony - PlayStation 4",
-            "Sony - PlayStation 5",
-            "Sony - PlayStation Network",
-            "Sony - PlayStation Portable",
-            "Sony - PlayStation Vita",
-        ]
     system_checkbox = inquirer.checkbox(
         message="Pick one or more systems:",
         choices=systems,
@@ -206,89 +231,87 @@ def list_date():
     info_logger.info(f"Length of Date: |{len(date)}|")
 
     # List all entries of specified release date in games.csv
-    with open("src/games.csv", "r", encoding="UTF8") as games_csv:
-        read_csv = reader(games_csv)
-        max_title_length = max(len(column[0]) for column in read_csv)
-        games_csv.seek(0)
+    read_csv = open_csv_file(csv)
+    max_title_length = max(len(column[0]) for column in read_csv)
 
-        length_dict = {4:4, 6:6, 8:8}
-        length = len(date)
-        if length in length_dict:
-            info_logger.info(f"Chose {length} length")
+    length_dict = {4:4, 6:6, 8:8}
+    length = len(date)
+    if length in length_dict:
+        info_logger.info(f"Chose {length} length")
 
-            config = configparser.ConfigParser()
-            config.read('config/config.ini')
-            title_value = config.getboolean('sorting', 'sort_title')
-            date_value = config.getboolean('sorting', 'sort_date')
+        config = configparser.ConfigParser()
+        config.read('config/config.ini')
+        title_value = config.getboolean('sorting', 'sort_title')
+        date_value = config.getboolean('sorting', 'sort_date')
 
-            def format_date(date_str):
-                year = date_str[:4]
-                month = date_str[4:6]
-                day = date_str[6:8]
-                return f"{year}-{month}-{day}"
+        def format_date(date_str):
+            year = date_str[:4]
+            month = date_str[4:6]
+            day = date_str[6:8]
+            return f"{year}-{month}-{day}"
 
-            #
-            # SORT BY TITLE
-            #
+        #
+        # SORT BY TITLE
+        #
 
-            if title_value == True:
-                info_logger.info(f"Maximum Length of Title: {max_title_length}")
-                print("-"*100)
-                print("Title, System, Release Date, Version")
-                print("-"*100)
-                for column in read_csv:
-                    
-                    date_str = format_date(column[2])
+        if title_value == True:
+            info_logger.info(f"Maximum Length of Title: {max_title_length}")
+            print("-"*100)
+            print("Title, System, Release Date, Version")
+            print("-"*100)
+            for column in read_csv:
+                
+                date_str = format_date(column[2])
 
-                    # Print the formatted output
-                    if date in column[2][:length_dict[length]]:
-                        game_title = f"{bold}{column[0]}{reset}"
-                        console_name = f"{red}{column[1]}{reset}"
-                        date_str = f"{green}{date_str}{reset}"
-                        version = f" {orange}{column[4].title()}{reset}" if column[4] else ""
-
-                        print("{:<{width}}{:<20}{:<15}{}".format(game_title, console_name, date_str, version, width=max_title_length))
-                print("")
-            #
-            # SORT BY DATE
-            #
-
-            # TODO: THERE IS NO COLOR OUTPUT IN THIS
-            # TODO: MAKE SIMILIAR TO SORT BY TITLE
-
-            elif date_value == True:
-
-                # Create a temporary empty list to store the following entries
-                entries = []
-
-                # Loop through each row in the CSV file
-                for row in read_csv:
-                    # Extract the date from the row
-                    row_date_str = row[2]
-
-                    # If the row's date matches the input date
-                    if date in row_date_str:
-                        date_str = format_date(row[2])
-
-                        # Store the entry in the list
-                        entries.append((date_str, row[0], row[1], row[4]))
-
-                # Sort the entries by date
-                entries.sort()
-
-                # Print the sorted entries
-                for entry in entries:
-                    game_title = f"{bold}{row[0]}{reset}"
-                    console_name = f"{red}{row[1]}{reset}" 
+                # Print the formatted output
+                if date in column[2][:length_dict[length]]:
+                    game_title = f"{bold}{column[0]}{reset}"
+                    console_name = f"{red}{column[1]}{reset}"
                     date_str = f"{green}{date_str}{reset}"
-                    version = f"{orange}{row[4]}{reset}" if row[4] else ""
-                    date_str, game_title, console_name, version = entry
-                    
+                    version = f" {orange}{column[4].title()}{reset}" if column[4] else ""
 
                     print("{:<{width}}{:<20}{:<15}{}".format(game_title, console_name, date_str, version, width=max_title_length))
+            print("")
+        #
+        # SORT BY DATE
+        #
 
-                # Print a blank line after the output
-                print("")
+        # TODO: THERE IS NO COLOR OUTPUT IN THIS
+        # TODO: MAKE SIMILIAR TO SORT BY TITLE
+
+        elif date_value == True:
+
+            # Create a temporary empty list to store the following entries
+            entries = []
+
+            # Loop through each row in the CSV file
+            for row in read_csv:
+                # Extract the date from the row
+                row_date_str = row[2]
+
+                # If the row's date matches the input date
+                if date in row_date_str:
+                    date_str = format_date(row[2])
+
+                    # Store the entry in the list
+                    entries.append((date_str, row[0], row[1], row[4]))
+
+            # Sort the entries by date
+            entries.sort()
+
+            # Print the sorted entries
+            for entry in entries:
+                game_title = f"{bold}{row[0]}{reset}"
+                console_name = f"{red}{row[1]}{reset}" 
+                date_str = f"{green}{date_str}{reset}"
+                version = f"{orange}{row[4]}{reset}" if row[4] else ""
+                date_str, game_title, console_name, version = entry
+                
+
+                print("{:<{width}}{:<20}{:<15}{}".format(game_title, console_name, date_str, version, width=max_title_length))
+
+            # Print a blank line after the output
+            print("")
 
 def list_games(selected_options_2):
     info_logger.info(f"File: |{filename}|")
