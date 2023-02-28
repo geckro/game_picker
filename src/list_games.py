@@ -1,78 +1,98 @@
-import os
 import configparser
 
+from os.path import basename
 from datetime import datetime
 from csv import reader
 from InquirerPy import inquirer
 from src.logging_config import *
 
-filename = os.path.basename(__file__)
+filename = basename(__file__)
+u8 = "UTF8"
+csv = "src/games.csv"
 
-def list_everything():
-    
+# Set the color codes for the console output
+bold = "\033[1m"
+red = "\033[31m"
+green = "\033[32m"
+reset = "\033[0m"
+orange = "\x1b[38;2;255;165;0m"
+
+# Extracts date from column 2 of csv document
+def date_extraction(date_str):
+    # first 4 characters
+    year = date_str[:4]
+    # character 5 and 6
+    month = date_str[4:6]
+    # character 7 and 8
+    day = date_str[6:8]
+
+    date_str = f"{year}-{month}-{day}"
+    if date_str.endswith("-"):
+                date_str = date_str[:-1]
+                if date_str.endswith("-"):
+                    date_str = "no-date"
+    return date_str
+
+# Prints the output.
+def print_output(csv_column, date):
+    game_title = f"{bold}{csv_column[0]}{reset}"
+    console_name = f"{red}{csv_column[1]}{reset}"
+    date_str = f"{green}{date}{reset}"
+    return f"{game_title}, {console_name}, {date_str}"
+
+def dev_check(dev):
+    developers = []
     with open("src/games.csv", "r", encoding="UTF8") as games_csv:
         read_csv = reader(games_csv)
         for column in read_csv:
-            # Extract the year, month, and day from column[2]
-            year = column[2][:4]
-            month = column[2][4:6]
-            day = column[2][6:8]
+            if column[7] not in developers:
+                developers.append(column[7])
+        developers.sort()
+        # Reset to beginning of file.
+        games_csv.seek(0)
+        if dev in developers:
+            return True
+        else:
+            return False
 
-            # Create a formatted string for the date with hyphens
-            date_str = f"{year}-{month}-{day}"
-
-            # Set the color codes for the console output
-            bold = "\033[1m"
-            red = "\033[31m"
-            green = "\033[32m"
-            reset = "\033[0m"
-
-            # Print the formatted output
-            game_title = f"{bold}{column[0]}{reset}"
-            console_name = f"{red}{column[1]}{reset}"
-            date_str = f"{green}{date_str}{reset}"
-
-            print(f"{game_title}, {console_name}, {date_str}")
-        print("")
+def list_everything():
+    # opens games.csv as var games_csv
+    with open(csv, "r", encoding=u8) as games_csv:
+        read_csv = reader(games_csv)
+        for column in read_csv:
+            # Extract the date and if date includes "-" strip it out
+            date_str = date_extraction(column[2])
+            # Print output
+            output = print_output(column, date_str)
+            print(output)
+        # For proper formatting
+        print()
 
 def list_developer():
-
-    developer = input("Enter developer: ")
-
+    # Makes user input a developer and checks to see if that user is in the csv developer column. If developer not in column, it asks again.
+    while True:
+        developer = input("Enter developer: ")
+        check_developer = dev_check(developer)
+        print(check_developer)
+        if check_developer == True:
+            break
+        elif check_developer == False:
+            print(f"{developer} does not exist!")
     info_logger.info(f"Developer: |{developer}|")
-
     # List all entries of specified developer in games.csv
-    with open("src/games.csv", "r", encoding="UTF8") as games_csv:
+    with open(csv, "r", encoding=u8) as games_csv:
         read_csv = reader(games_csv)
         print(f"\nGames developed by {developer}:\n")
         for column in read_csv:
-            # Extract the year, month, and day from column[2]
-            year = column[2][:4]
-            month = column[2][4:6]
-            day = column[2][6:8]
-
-            # Create a formatted string for the date with hyphens
-            date_str = f"{year}-{month}-{day}"
-
-            # Set the color codes for the console output
-            bold = "\033[1m"
-            red = "\033[31m"
-            green = "\033[32m"
-            reset = "\033[0m"
-
+            date_str = date_extraction(column[2])
             # Print the formatted output
             if developer.lower() in column[7].lower():
+                output = print_output(column, date_str)
+                print(output)
+        print()
 
-                game_title = f"{bold}{column[0]}{reset}"
-                console_name = f"{red}{column[1]}{reset}"
-                date_str = f"{green}{date_str}{reset}"
-
-                print(f"{game_title}, {console_name}, {date_str}")
-        print("")
-
+# List all entries of chosen console in games.csv
 def list_console():
-    # List all entries of chosen console in games.csv
-
     def systems(_):
         return [
             "Microsoft - Windows",
@@ -201,13 +221,6 @@ def list_date():
             title_value = config.getboolean('sorting', 'sort_title')
             date_value = config.getboolean('sorting', 'sort_date')
 
-            # Set the color codes for the console output
-            bold = "\033[1m"
-            red = "\033[31m"
-            green = "\033[32m"
-            orange = "\x1b[38;2;255;165;0m"
-            reset = "\033[0m"
-
             def format_date(date_str):
                 year = date_str[:4]
                 month = date_str[4:6]
@@ -278,19 +291,15 @@ def list_date():
                 print("")
 
 def list_games(selected_options_2):
-
     info_logger.info(f"File: |{filename}|")
     info_logger.info(f"Selected Options 2: |{selected_options_2}|")
-
     options = {
         "List Everything": list_everything,
         "List Console": list_console,
         "List Date": list_date,
         "List Developer": list_developer,
     }
-
     execute_list = options.get(selected_options_2, None)
-
     if execute_list is None:
         print("Error!")
     else:
