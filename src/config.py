@@ -21,6 +21,11 @@ config_options = {
         "Log Errors",
         "Log Nothing",
     ],
+    "Steam Settings": [
+        "Show URLs",
+        "Dont Show URLs",
+    ],
+
 }
 
 def configure_settings():
@@ -73,6 +78,13 @@ def configure_settings():
             config.set('logging', 'log_nothing', 'True')
             config.set('logging', 'log_all', 'False')
             config.set('logging', 'log_errors', 'False')
+    elif option == "Steam Settings":
+        if option_select == "Show URLs":
+            config.set('steam', 'url', 'True')
+            config.set('steam', 'no_url', 'False')
+        elif option_select == "Dont Show URLs":
+            config.set('steam', 'url', 'False')
+            config.set('steam', 'no_url', 'True')
     
     else:
         error_logger.error(f'error at option_select, option picking.')

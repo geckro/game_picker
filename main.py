@@ -48,6 +48,7 @@ def main() -> None:
                     "List Console",
                     "List Date",
                     "List Developer",
+                    "List Games on Steam",
                 ],
             }
 
@@ -76,6 +77,7 @@ def main() -> None:
                 "List Console": list_games,
                 "List Date": list_games,
                 "List Developer": list_games,
+                "List Games on Steam": list_games,
             }
 
             if selected_options_2:

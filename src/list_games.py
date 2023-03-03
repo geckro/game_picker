@@ -95,6 +95,18 @@ def list_developer():
             print(output)
     print()
 
+def list_steam():
+    # Lists all games that are on steam or was on steam.
+    read_csv = open_csv_file(csv)
+    print(f"\nGames that are on Steam:\n")
+    for column in read_csv:
+        date_str = date_extraction(column[2])
+        # Print the formatted output
+        if column[11] != "":
+            output = print_output(column, date_str, "null")
+            print(output)
+    print()
+
 # List all entries of chosen console in games.csv
 def list_system():
     system_input = input("Enter system: ").lower()
@@ -237,6 +249,7 @@ def list_games(selected_options_2):
         "List Console": list_system,
         "List Date": list_date,
         "List Developer": list_developer,
+        "List Games on Steam": list_steam,
     }
     execute_list = options.get(selected_options_2, None)
     if execute_list is None:
