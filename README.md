@@ -8,5 +8,8 @@ CLI tool that parses a game database to give the user multiple outputs.
 - List all the games in the csv file
 - List all the games that released at a specific year, year/month or year/month/day.
 - Search games in the `.csv` file
+## Dependencies
+1. You will need **Python 3.x**. You can download it [here](https://www.python.org/downloads/).  
+2. You will also need **InquirerPy**. You can install it by running `pip install inquirerpy`  
 ## Usage
 Run `main.py` in a terminal.

@@ -7,6 +7,7 @@ try:
     from csv import reader
     from InquirerPy import inquirer
     from src.logging_config import *
+    from src.util.output import print_output
     filename = basename(__file__)
 except ModuleNotFoundError:
     print("Import Error!")
@@ -45,13 +46,6 @@ def date_extraction(date_str):
                 if date_str.endswith("-"):
                     date_str = "no-date"
     return date_str
-
-# Prints the output.
-def print_output(csv_column, date):
-    game_title = f"{bold}{csv_column[0]}{reset}"
-    console_name = f"{red}{csv_column[1]}{reset}"
-    date_str = f"{green}{date}{reset}"
-    return f"{game_title}, {console_name}, {date_str}"
 
 def dev_check(dev):
     # TODO: is there a faster way instead of using a list variable?
@@ -97,7 +91,7 @@ def list_developer():
         date_str = date_extraction(column[2])
         # Print the formatted output
         if developer.lower() in column[7].lower():
-            output = print_output(column, date_str)
+            output = print_output(column, date_str, "no_developer")
             print(output)
     print()
 
@@ -113,8 +107,8 @@ def list_system():
     for column in read_csv:
         date_str = date_extraction(column[2])
         # Print the formatted output
-        if system in column[1].lower():
-            output = print_output(column, date_str)
+        if column[1].lower() == system.lower():
+            output = print_output(column, date_str, "no_system")
             print(output)
     print()
 
