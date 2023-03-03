@@ -1,13 +1,17 @@
 import configparser
 
-from src.util.system_dictionary import *
-from os.path import basename
-from datetime import datetime
-from csv import reader
-from InquirerPy import inquirer
-from src.logging_config import *
+try:
+    from src.util.system_dictionary import *
+    from os.path import basename
+    from datetime import datetime
+    from csv import reader
+    from InquirerPy import inquirer
+    from src.logging_config import *
+    filename = basename(__file__)
+except ModuleNotFoundError:
+    print("Import Error!")
 
-filename = basename(__file__)
+
 u8 = "UTF8"
 csv = "src/games.csv"
 
@@ -103,6 +107,8 @@ def list_system():
     if system_input in sys_dict:
         system = sys_dict[system_input]
     read_csv = open_csv_file(csv)
+    info_logger.info(f"System: |{system}|")
+    info_logger.info(f"System Input: |{system_input}|")
     print(f"\nGames that released on {system_input}:\n")
     for column in read_csv:
         date_str = date_extraction(column[2])
@@ -111,37 +117,6 @@ def list_system():
             output = print_output(column, date_str)
             print(output)
     print()
-    
-    # Log the selected option for the first select inquiry.
-    #info_logger.info(f'Selected Systems: |{system_checkbox}|')
-    
-    # with open("src/games.csv", "r", encoding="UTF8") as games_csv:
-    #     read_csv = reader(games_csv)
-    #     print("List of",console_num.consoleName,"games")
-    #     print("DATE      |      NAME      |      SERIES")
-    
-    #     # TODO: Make function print multiple lines
-    #     # If sort date is wanted, write the results to a file, sort it alphabetically, and then print results.
-    #     if console_num.date_var == 1:
-    #         temp = open('temp.txt', 'w')
-    #         temp.close()    
-    #         for column in read_csv:
-    #             if console_num.consoleNum in column[1]:
-    #                 temp = open('temp.txt', 'a')
-    #                 temporary = column[2],column[0]
-    #                 temp.write(str(temporary) + "\n")
-    #                 temp.close()
-    #         with open("temp.txt", "r+") as file:
-    #                 temp2 = sorted(file.readlines())
-                
-    #                 file.write(str(temp2))
-    
-    #     #  If sort date is not wanted, just list from the csv file.
-    #     for column in read_csv:
-    #             if console_num.consoleNum in column[1]:
-    #                 print(column[2],"|",column[0],"|",column[3])
-
-    print("na")
 
 def list_date():
 
@@ -275,3 +250,6 @@ def list_games(selected_options_2):
     else:
         info_logger.info(f"Selected Option for List: |{execute_list}|")
         execute_list()
+if __name__ == "__main__":
+    print("YOU CANNOT RUN THIS FILE DIRECTLY!\nexiting...")
+    exit()
