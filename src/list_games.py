@@ -1,5 +1,6 @@
 import configparser
 
+from src.util.system_dictionary import *
 from os.path import basename
 from datetime import datetime
 from csv import reader
@@ -16,65 +17,6 @@ red = "\033[31m"
 green = "\033[32m"
 reset = "\033[0m"
 orange = "\x1b[38;2;255;165;0m"
-
-# List of systems
-def systems(_):
-    return [
-        "Amazon - Luna",
-        "Arcade - Arcades",
-        "Apple - iOS",
-        "Apple - MacOS / OSX",
-        "Atari - 2600",
-        "Atari - 5200",
-        "Atari - 7800",
-        "Atari - Lynx",
-        "Atari - Jaguar",
-        "Bandai - WonderSwan",
-        "Coleco - ColecoVision",
-        "Commodore - 64",
-        "Google - Android",
-        "Google - Stadia",
-        "Linux - Linux (Various)",
-        "Mattel - IntelliVision",
-        "Microsoft - Windows",
-        "Microsoft - Xbox",
-        "Microsoft - Xbox 360",
-        "Microsoft - Xbox One",
-        "Microsoft - Xbox Series X/S",
-        "Microsoft - Xbox Live Arcade",
-        "NEC - TurboGrafx-16",
-        "NEC - SuperGrafx",
-        "Nintendo - 3DS",
-        "Nintendo - DS",
-        "Nintendo - DSiWare",
-        "Nintendo - Game Boy",
-        "Nintendo - Game Boy Color",
-        "Nintendo - Game Boy Advance",
-        "Nintendo - GameCube"
-        "Nintendo - NES / Famicom",
-        "Nintendo - Nintendo 64",
-        "Nintendo - Super Nintendo",
-        "Nintendo - Switch",
-        "Nintendo - Virtual Boy",
-        "Nintendo - Wii",
-        "Nintendo - WiiWare",
-        "Nintendo - Wii U",
-        "Philips - CD-i",
-        "Sega - 32X",
-        "Sega - Dreamcast",
-        "Sega - Genesis / Mega Drive",
-        "Sega - Master System",
-        "Sega - Sega CD",
-        "Sega - Saturn",
-        "Sony - PlayStation 1",
-        "Sony - PlayStation 2",
-        "Sony - PlayStation 3",
-        "Sony - PlayStation 4",
-        "Sony - PlayStation 5",
-        "Sony - PlayStation Network",
-        "Sony - PlayStation Portable",
-        "Sony - PlayStation Vita",
-    ]
 
 def open_csv_file(file_path):
     data = []
@@ -156,17 +98,22 @@ def list_developer():
     print()
 
 # List all entries of chosen console in games.csv
-def list_console():
-    system_checkbox = inquirer.checkbox(
-        message="Pick one or more systems:",
-        choices=systems,
-        validate=lambda result: len(result) >= 1,
-        invalid_message="should be at least 1 selection",
-        instruction="(select at least 1)",
-    ).execute()
+def list_system():
+    system_input = input("Enter system: ").lower()
+    if system_input in sys_dict:
+        system = sys_dict[system_input]
+    read_csv = open_csv_file(csv)
+    print(f"\nGames that released on {system_input}:\n")
+    for column in read_csv:
+        date_str = date_extraction(column[2])
+        # Print the formatted output
+        if system in column[1].lower():
+            output = print_output(column, date_str)
+            print(output)
+    print()
     
     # Log the selected option for the first select inquiry.
-    info_logger.info(f'Selected Systems: |{system_checkbox}|')
+    #info_logger.info(f'Selected Systems: |{system_checkbox}|')
     
     # with open("src/games.csv", "r", encoding="UTF8") as games_csv:
     #     read_csv = reader(games_csv)
@@ -318,7 +265,7 @@ def list_games(selected_options_2):
     info_logger.info(f"Selected Options 2: |{selected_options_2}|")
     options = {
         "List Everything": list_everything,
-        "List Console": list_console,
+        "List Console": list_system,
         "List Date": list_date,
         "List Developer": list_developer,
     }

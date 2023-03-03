@@ -367,6 +367,7 @@ sys_dict = {
     "sony - playstation": "ps1",
     "sony - playstation 1": "ps1",
     "playstation 1": "ps1",
+    "playstation": "ps1",
     "ps1": "ps1",
     "ps": "ps1",
     # Sony - PlayStation 2
