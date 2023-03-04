@@ -8,10 +8,10 @@ try:
     from InquirerPy import inquirer
     from src.logging_config import *
     from src.util.output import print_output
+    from src.util.results import results
     filename = basename(__file__)
 except ModuleNotFoundError:
     print("Import Error!")
-
 
 u8 = "UTF8"
 csv = "src/games.csv"
@@ -68,8 +68,8 @@ def list_everything():
         # Extract the date and if date includes "-" strip it out
         date_str = date_extraction(column[2])
         # Print output
-        output = print_output(column, date_str)
-        print(output)
+        output = print_output(column, date_str, "null")
+        results(output)
     # For proper formatting
     print()
 
@@ -92,7 +92,7 @@ def list_developer():
         # Print the formatted output
         if developer.lower() in column[7].lower():
             output = print_output(column, date_str, "no_developer")
-            print(output)
+            results(output)
     print()
 
 def list_steam():
@@ -104,7 +104,7 @@ def list_steam():
         # Print the formatted output
         if column[11] != "":
             output = print_output(column, date_str, "null")
-            print(output)
+            results(output)
     print()
 
 # List all entries of chosen console in games.csv
@@ -115,13 +115,22 @@ def list_system():
     read_csv = open_csv_file(csv)
     info_logger.info(f"System: |{system}|")
     info_logger.info(f"System Input: |{system_input}|")
-    print(f"\nGames that released on {system_input}:\n")
+
+    config = configparser.ConfigParser()
+    config.read('config/config.ini')
+    log_file = config.getboolean('logging', 'log_results_to_file')
+
+    if log_file:
+        print("Printing results to [resultfile.txt]")
+    else:
+        print(f"\nGames that released on {system_input}:\n")
+
     for column in read_csv:
         date_str = date_extraction(column[2])
         # Print the formatted output
         if column[1].lower() == system.lower():
             output = print_output(column, date_str, "no_system")
-            print(output)
+            results(output)
     print()
 
 def list_date():

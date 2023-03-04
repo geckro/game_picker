@@ -6,14 +6,25 @@ from src.list_games import list_games
 from src.config import configure_settings
 from src.logging_config import *
 
+import os
+
 RANDOMIZE = "Randomize"
 LIST = "List"
 CONFIG = "Config"
 EXIT = "Exit"
 
+resultfile = "resultfile.txt"
+
 def main() -> None:
 
     info_logger.info(f'Starting Program...')
+
+    if os.path.exists(resultfile):
+        os.remove(resultfile)
+        print(f"File {resultfile} has been deleted.")
+    else:
+        print(f"File {resultfile} does not exist.")
+
 
     # Asks the user for an action and then saves it in selected_options_1
     selected_options_1 = inquirer.select(
