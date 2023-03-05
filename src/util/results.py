@@ -11,4 +11,4 @@ def results(output):
         resultfile.write(f"{clean_output}\n")
         resultfile.close()
     else:
-        return output
+        return print(output)
