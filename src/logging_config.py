@@ -28,7 +28,3 @@ error_handler = RotatingFileHandler(
 )
 error_handler.setFormatter(error_formatter)
 error_logger.addHandler(error_handler)
-
-# Log messages
-info_logger.info("This is an info message")
-error_logger.error("This is an error message")
