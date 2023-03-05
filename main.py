@@ -1,19 +1,15 @@
-from InquirerPy import inquirer
-from InquirerPy.base import Choice
-from InquirerPy.separator import Separator
-from src.randomize_games import randomize_games
-from src.list_games import list_games
-from src.config import configure_settings
-from src.logging_config import *
-
-import os
-
-RANDOMIZE = "Randomize"
-LIST = "List"
-CONFIG = "Config"
-EXIT = "Exit"
-
-resultfile = "resultfile.txt"
+try:
+    import os
+    from InquirerPy import inquirer
+    from InquirerPy.base import Choice
+    from InquirerPy.separator import Separator
+    from src.randomize_games import randomize_games
+    from src.list_games import list_games
+    from src.config import configure_settings
+    from src.logging_config import *
+    from src.util.variables import *
+except ModuleNotFoundError as ERR:
+    error_logger.error(f"Failed to import {ERR.name} module: {ERR}")
 
 def main() -> None:
 
@@ -21,10 +17,9 @@ def main() -> None:
 
     if os.path.exists(resultfile):
         os.remove(resultfile)
-        print(f"File {resultfile} has been deleted.")
+        info_logger.info(f"File {resultfile} has been deleted.")
     else:
-        print(f"File {resultfile} does not exist.")
-
+        info_logger.info(f"File {resultfile} does not exist.")
 
     # Asks the user for an action and then saves it in selected_options_1
     selected_options_1 = inquirer.select(
@@ -46,23 +41,6 @@ def main() -> None:
         if CONFIG in selected_options_1:
             configure_settings()
         else:
-            # This is a dictionary that maps each action to its corresponding options
-            options = {
-                RANDOMIZE: [
-                    "Randomize Everything",
-                    "Randomize Console",
-                    "Randomize Date",
-                    "Randomize Developer",
-                ],
-                LIST: [
-                    "List Everything",
-                    "List Console",
-                    "List Date",
-                    "List Developer",
-                    "List Games on Steam",
-                ],
-            }
-
             # Append separator and exit to the list of options for the selected action
             options[selected_options_1].append(Separator())
             options[selected_options_1].append(Choice(value=None, name=EXIT))

@@ -6,3 +6,28 @@ csv = "src/games.csv"
 
 # name of current file, useful for error handling
 filename = basename(__file__)
+
+# options for main
+RANDOMIZE = "Randomize"
+LIST = "List"
+CONFIG = "Config"
+EXIT = "Exit"
+resultfile = "resultfile.txt"
+
+# This is a dictionary that maps each action to its corresponding options
+options = {
+    RANDOMIZE: [
+        "Randomize Everything",
+        "Randomize Console",
+        "Randomize Date",
+        "Randomize Developer",
+    ],
+    LIST: [
+        "List Everything",
+        "List Console",
+        "List Date",
+        "List Developer",
+        "List Games on Steam",
+    ],
+}
+
