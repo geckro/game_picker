@@ -6,3 +6,4 @@ build/
 var/
 MANIFEST
 resultfile*
+.venv/
