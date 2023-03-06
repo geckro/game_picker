@@ -11,6 +11,7 @@ filename = basename(__file__)
 RANDOMIZE = "Randomize"
 LIST = "List"
 CONFIG = "Config"
+OTHER = "Misc"
 EXIT = "Exit"
 resultfile = "resultfile.txt"
 
@@ -29,5 +30,9 @@ options = {
         "List Developer",
         "List Games on Steam",
     ],
+    OTHER: [
+        "Search Games",
+        "Owned Games",
+    ]
 }
 

@@ -5,6 +5,8 @@ try:
     from InquirerPy.separator import Separator
     from src.randomize_games import randomize_games
     from src.list_games import list_games
+    from src.owned_games import owned_games
+    from src.search import search_csv
     from src.config import configure_settings
     from src.logging_config import *
     from src.util.variables import *
@@ -27,6 +29,7 @@ def main() -> None:
         choices=[
             RANDOMIZE,
             LIST,
+            OTHER,
             Separator(), 
             CONFIG,
             Choice(value=None, name=EXIT),
@@ -67,6 +70,8 @@ def main() -> None:
                 "List Date": list_games,
                 "List Developer": list_games,
                 "List Games on Steam": list_games,
+                "Search Games": search_csv,
+                "Owned Games": owned_games,
             }
 
             if selected_options_2:
@@ -78,7 +83,10 @@ def main() -> None:
                     info_logger.info(f'What code are you executing?: |{execute_code}|')
                     
                     # Call the function
-                    execute_code(selected_options_2)
+                    if selected_options_2 != "Search Games":
+                        execute_code(selected_options_2)
+                    else:
+                        execute_code() 
 
     info_logger.info(f'Exiting main...')
 
