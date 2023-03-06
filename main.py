@@ -83,7 +83,7 @@ def main() -> None:
                     info_logger.info(f'What code are you executing?: |{execute_code}|')
                     
                     # Call the function
-                    if selected_options_2 != "Search Games":
+                    if selected_options_2 != "Search Games" and selected_options_2 != "Owned Games":
                         execute_code(selected_options_2)
                     else:
                         execute_code() 

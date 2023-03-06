@@ -1,4 +1,5 @@
 import os
+from src.search import search_csv
 def customcsv():
     csv = "data/custom.csv"
     if not os.path.isfile(csv):
@@ -13,3 +14,6 @@ def customcsv():
 def owned_games():
     csv = customcsv()
     print(csv)
+
+    search_results = search_csv()
+    print(search_results)
