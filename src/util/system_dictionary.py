@@ -58,6 +58,10 @@ sys_dict = {
     "commodore 64": "c64",
     "c64": "c64",
     "commodore - commodore 64": "c64",
+    # Commodore - Commodore Amiga
+    "commodore amiga": "ami",
+    "amiga": "ami",
+    "ami": "ami",
     # Google - Android
     "android": "and",
     "and": "and",
