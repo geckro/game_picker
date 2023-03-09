@@ -1,9 +1,19 @@
 sys_dict = {
+    # No Console
+    "nocon": "nocon",
+    # Acorn - Risc OS
+    "risc os": "riscos",
+    "riscos": "riscos",
+    # Amazon - FireOS
+    "fireos": "fos",
+    "fire os": "fos",
     # Amazon - Luna
     "amazon - luna": "lun",
     "amazon luna": "lun",
     "luna": "lun",
     "lun": "lun",
+    # Apple - iiGS
+    "2gs": "2gs",
     # Apple - iOS
     "ios": "ios",
     "apple ios": "ios",
@@ -17,6 +27,9 @@ sys_dict = {
     "apple mac": "mac",
     "apple macos": "mac",
     "apple osx": "mac",
+    # Apple - tvOS
+    "tvos": "tvos",
+    "tv os":  "tvos",
     # Arcades (various)
     "arcade": "arc",
     "arcades": "arc",
@@ -62,6 +75,8 @@ sys_dict = {
     "commodore amiga": "ami",
     "amiga": "ami",
     "ami": "ami",
+    # Fujitsu - FM-7
+    "fm7": "fm7",
     # Google - Android
     "android": "and",
     "and": "and",
@@ -83,6 +98,8 @@ sys_dict = {
     "fedora": "lin",
     "arch": "lin",
     "linus": "lin",
+    # Mattel - Intellivision
+    "int": "int",
     # Microsoft - MS-DOS
     "ms dos": "msdos",
     "microsoft dos": "msdos",
@@ -101,10 +118,16 @@ sys_dict = {
     "gog": "win",
     "uplay": "win",
     "origin": "win",
+    # Microsoft - Windows 95
+    "windows 95": "w95",
     # Microsoft - Windows Phone
     "wdph": "wdph",
     "windows phone": "wdph",
     "microsoft windows phone": "wdph",
+    # Microsoft - MSX
+    "msx": "msx",
+    # Microsoft - MSX2
+    "msx2": "msx2",
     # Microsoft - Xbox
     "xbox": "xbox",
     "microsoft xbox": "xbox",
